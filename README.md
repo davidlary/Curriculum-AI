@@ -26,15 +26,25 @@ Each directory is a Git repo with markdown or LaTeX textbook content.
 ## 🏁 Quickstart
 
 ```bash
-# Set your OpenAI API key
-export OPENAI_API_KEY='your-api-key-here'
+# Set your API keys (at minimum OpenAI for embeddings)
+export OPENAI_API_KEY='your-openai-key-here'
+export ANTHROPIC_API_KEY='your-anthropic-key-here'  # Optional
+export XAI_API_KEY='your-xai-key-here'              # Optional
 
 # Run the pipeline
 python GetOpenBooks.py
 python scripts/parse_textbooks.py
-python scripts/embed_chunks.py
-python scripts/generate_curriculum.py --discipline physics
-python scripts/generate_questions.py --discipline physics
+python scripts/embed_chunks.py --provider openai
+python scripts/generate_curriculum.py --discipline physics --provider anthropic
+python scripts/generate_questions.py --discipline physics --provider xai
 streamlit run ui/admin_app.py
 ```
+
+## 🤖 AI Provider Support
+
+- **OpenAI**: GPT-4, GPT-3.5-turbo + text-embedding-ada-002
+- **Anthropic**: Claude-3-Sonnet, Claude-3-Haiku  
+- **XAI**: Grok-beta (OpenAI-compatible API)
+
+*Note: OpenAI API key required for embeddings regardless of other providers chosen.*
 

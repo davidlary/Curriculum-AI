@@ -87,7 +87,7 @@ class CurriculumAdmin:
         
         return stats
     
-    def run_pipeline_step(self, step: str, discipline: str, openai_api_key: str) -> bool:
+    def run_pipeline_step(self, step: str, discipline: str, openai_api_key: str, provider: str = "openai") -> bool:
         """Run a specific pipeline step."""
         env = os.environ.copy()
         if openai_api_key:
@@ -95,9 +95,9 @@ class CurriculumAdmin:
         
         commands = {
             "parse": ["python", "scripts/parse_textbooks.py", "--discipline", discipline],
-            "embed": ["python", "scripts/embed_chunks.py", "--discipline", discipline],
-            "curriculum": ["python", "scripts/generate_curriculum.py", "--discipline", discipline],
-            "questions": ["python", "scripts/generate_questions.py", "--discipline", discipline]
+            "embed": ["python", "scripts/embed_chunks.py", "--discipline", discipline, "--provider", provider.lower()],
+            "curriculum": ["python", "scripts/generate_curriculum.py", "--discipline", discipline, "--provider", provider.lower()],
+            "questions": ["python", "scripts/generate_questions.py", "--discipline", discipline, "--provider", provider.lower()]
         }
         
         if step not in commands:
@@ -143,17 +143,57 @@ def main():
     with st.sidebar:
         st.header("Configuration")
         
-        # OpenAI API Key
-        env_api_key = os.getenv("OPENAI_API_KEY", "")
-        if env_api_key:
-            st.success("✅ OpenAI API key found in environment variables")
-            openai_api_key = env_api_key
+        # API Keys
+        st.subheader("API Keys")
+        
+        # Check all environment variables
+        openai_key = os.getenv("OPENAI_API_KEY", "")
+        anthropic_key = os.getenv("ANTHROPIC_API_KEY", "")
+        xai_key = os.getenv("XAI_API_KEY", "")
+        
+        # Display status for each API key
+        if openai_key:
+            st.success("✅ OpenAI API key found in environment")
         else:
+            st.warning("⚠️ OpenAI API key not found in environment")
+            
+        if anthropic_key:
+            st.success("✅ Anthropic API key found in environment")
+        else:
+            st.info("ℹ️ Anthropic API key not found (optional)")
+            
+        if xai_key:
+            st.success("✅ XAI API key found in environment")
+        else:
+            st.info("ℹ️ XAI API key not found (optional)")
+        
+        # Manual input only if environment variables are missing
+        if not openai_key:
             openai_api_key = st.text_input(
                 "OpenAI API Key",
                 type="password",
-                help="Required for embedding and curriculum generation (or set OPENAI_API_KEY env var)"
+                help="Required for embedding and curriculum generation"
             )
+        else:
+            openai_api_key = openai_key
+            
+        # Show provider selection if multiple keys available
+        available_providers = []
+        if openai_key or openai_api_key:
+            available_providers.append("OpenAI")
+        if anthropic_key:
+            available_providers.append("Anthropic")
+        if xai_key:
+            available_providers.append("XAI")
+            
+        if len(available_providers) > 1:
+            selected_provider = st.selectbox(
+                "AI Provider",
+                available_providers,
+                help="Select which AI provider to use for curriculum generation"
+            )
+        else:
+            selected_provider = available_providers[0] if available_providers else "OpenAI"
         
         # Discipline selection
         if admin.disciplines:
@@ -174,38 +214,59 @@ def main():
         
         with col1:
             if st.button("🔍 Parse Textbooks", use_container_width=True):
-                admin.run_pipeline_step("parse", selected_discipline, openai_api_key)
+                admin.run_pipeline_step("parse", selected_discipline, openai_api_key, selected_provider)
                 st.rerun()
             
             if st.button("🧠 Generate Curriculum", use_container_width=True):
-                if not openai_api_key:
+                if selected_provider == "OpenAI" and not openai_api_key:
                     st.error("OpenAI API key required!")
+                elif selected_provider == "Anthropic" and not anthropic_key:
+                    st.error("Anthropic API key required!")
+                elif selected_provider == "XAI" and not xai_key:
+                    st.error("XAI API key required!")
                 else:
-                    admin.run_pipeline_step("curriculum", selected_discipline, openai_api_key)
+                    admin.run_pipeline_step("curriculum", selected_discipline, openai_api_key, selected_provider)
                     st.rerun()
         
         with col2:
             if st.button("📊 Embed Chunks", use_container_width=True):
                 if not openai_api_key:
-                    st.error("OpenAI API key required!")
+                    st.error("OpenAI API key required for embeddings!")
                 else:
-                    admin.run_pipeline_step("embed", selected_discipline, openai_api_key)
+                    admin.run_pipeline_step("embed", selected_discipline, openai_api_key, selected_provider)
                     st.rerun()
             
             if st.button("❓ Generate Questions", use_container_width=True):
-                if not openai_api_key:
+                if selected_provider == "OpenAI" and not openai_api_key:
                     st.error("OpenAI API key required!")
+                elif selected_provider == "Anthropic" and not anthropic_key:
+                    st.error("Anthropic API key required!")
+                elif selected_provider == "XAI" and not xai_key:
+                    st.error("XAI API key required!")
                 else:
-                    admin.run_pipeline_step("questions", selected_discipline, openai_api_key)
+                    admin.run_pipeline_step("questions", selected_discipline, openai_api_key, selected_provider)
                     st.rerun()
         
         if st.button("🚀 Run Full Pipeline", use_container_width=True, type="primary"):
-            if not openai_api_key:
+            # Check if required API keys are available
+            required_key_missing = False
+            if selected_provider == "OpenAI" and not openai_api_key:
                 st.error("OpenAI API key required for full pipeline!")
-            else:
+                required_key_missing = True
+            elif selected_provider == "Anthropic" and not anthropic_key:
+                st.error("Anthropic API key required for full pipeline!")
+                required_key_missing = True
+            elif selected_provider == "XAI" and not xai_key:
+                st.error("XAI API key required for full pipeline!")
+                required_key_missing = True
+            elif not openai_api_key:  # Always need OpenAI for embeddings
+                st.error("OpenAI API key required for embeddings!")
+                required_key_missing = True
+                
+            if not required_key_missing:
                 steps = ["parse", "embed", "curriculum", "questions"]
                 for step in steps:
-                    success = admin.run_pipeline_step(step, selected_discipline, openai_api_key)
+                    success = admin.run_pipeline_step(step, selected_discipline, openai_api_key, selected_provider)
                     if not success:
                         st.error(f"Pipeline stopped at {step} step")
                         break

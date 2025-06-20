@@ -46,23 +46,65 @@ class QuestionType(Enum):
     CALCULATION = "Calculation"
 
 class QuestionGenerator:
-    def __init__(self, openai_api_key: str = None):
-        """Initialize the question generator with OpenAI models."""
+    def __init__(self, openai_api_key: str = None, provider: str = "openai"):
+        """Initialize the question generator with AI models."""
+        # Check environment variables for API keys
         self.openai_api_key = openai_api_key or os.getenv("OPENAI_API_KEY")
-        if not self.openai_api_key:
-            raise ValueError("OpenAI API key required. Set OPENAI_API_KEY environment variable.")
+        self.anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
+        self.xai_api_key = os.getenv("XAI_API_KEY")
         
-        self.llm = ChatOpenAI(
-            model="gpt-4",
-            temperature=0.4,
-            openai_api_key=self.openai_api_key
-        )
+        self.provider = provider.lower()
         
-        self.fast_llm = ChatOpenAI(
-            model="gpt-3.5-turbo",
-            temperature=0.2,
-            openai_api_key=self.openai_api_key
-        )
+        # Initialize models based on provider
+        if self.provider == "openai":
+            if not self.openai_api_key:
+                raise ValueError("OpenAI API key required. Set OPENAI_API_KEY environment variable.")
+            self.llm = ChatOpenAI(
+                model="gpt-4",
+                temperature=0.4,
+                openai_api_key=self.openai_api_key
+            )
+            self.fast_llm = ChatOpenAI(
+                model="gpt-3.5-turbo",
+                temperature=0.2,
+                openai_api_key=self.openai_api_key
+            )
+        elif self.provider == "anthropic":
+            if not self.anthropic_api_key:
+                raise ValueError("Anthropic API key required. Set ANTHROPIC_API_KEY environment variable.")
+            try:
+                from langchain_anthropic import ChatAnthropic
+                self.llm = ChatAnthropic(
+                    model="claude-3-sonnet-20240229",
+                    temperature=0.4,
+                    anthropic_api_key=self.anthropic_api_key
+                )
+                self.fast_llm = ChatAnthropic(
+                    model="claude-3-haiku-20240307",
+                    temperature=0.2,
+                    anthropic_api_key=self.anthropic_api_key
+                )
+            except ImportError:
+                logger.error("langchain_anthropic not installed. Install with: pip install langchain-anthropic")
+                raise
+        elif self.provider == "xai":
+            if not self.xai_api_key:
+                raise ValueError("XAI API key required. Set XAI_API_KEY environment variable.")
+            # XAI uses OpenAI-compatible API
+            self.llm = ChatOpenAI(
+                model="grok-beta",
+                temperature=0.4,
+                openai_api_key=self.xai_api_key,
+                openai_api_base="https://api.x.ai/v1"
+            )
+            self.fast_llm = ChatOpenAI(
+                model="grok-beta",
+                temperature=0.2,
+                openai_api_key=self.xai_api_key,
+                openai_api_base="https://api.x.ai/v1"
+            )
+        else:
+            raise ValueError(f"Unsupported provider: {provider}. Supported: openai, anthropic, xai")
         
         # Initialize embeddings for context retrieval
         self.embeddings = OpenAIEmbeddings(openai_api_key=self.openai_api_key)
@@ -392,13 +434,13 @@ Generate a {bloom_level} level {question_type} question.""")
             
         logger.info(f"Saved assessment report to: {report_file}")
 
-def generate_questions(discipline: str = "Physics", openai_api_key: str = None):
+def generate_questions(discipline: str = "Physics", openai_api_key: str = None, provider: str = "openai"):
     """Main function to generate questions for a discipline."""
-    logger.info(f"Starting question generation for discipline: {discipline}")
+    logger.info(f"Starting question generation for discipline: {discipline} using {provider}")
     
     try:
-        # Initialize generator (will automatically use OPENAI_API_KEY env var if available)
-        generator = QuestionGenerator(openai_api_key=openai_api_key)
+        # Initialize generator (will automatically use environment variables if available)
+        generator = QuestionGenerator(openai_api_key=openai_api_key, provider=provider)
         
         # Load curriculum
         curriculum = generator.load_curriculum(discipline)
@@ -438,7 +480,9 @@ if __name__ == '__main__':
                        help='Discipline to generate questions for (default: Physics)')
     parser.add_argument('--openai-api-key',
                        help='OpenAI API key (optional - uses OPENAI_API_KEY env var by default)')
+    parser.add_argument('--provider', default='openai', choices=['openai', 'anthropic', 'xai'],
+                       help='AI provider for question generation (default: openai)')
     
     args = parser.parse_args()
     
-    generate_questions(discipline=args.discipline, openai_api_key=args.openai_api_key)
+    generate_questions(discipline=args.discipline, openai_api_key=args.openai_api_key, provider=args.provider)

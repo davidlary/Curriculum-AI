@@ -26,13 +26,26 @@ EMBEDDINGS_DIR = Path("Embeddings")
 EMBEDDINGS_DIR.mkdir(exist_ok=True)
 
 class ChunkEmbedder:
-    def __init__(self, openai_api_key: str = None):
-        """Initialize the chunk embedder with OpenAI embeddings and Qdrant vector store."""
+    def __init__(self, openai_api_key: str = None, provider: str = "openai"):
+        """Initialize the chunk embedder with embeddings and Qdrant vector store."""
+        # Check environment variables for API keys
         self.openai_api_key = openai_api_key or os.getenv("OPENAI_API_KEY")
-        if not self.openai_api_key:
-            raise ValueError("OpenAI API key required. Set OPENAI_API_KEY environment variable.")
+        self.anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
+        self.xai_api_key = os.getenv("XAI_API_KEY")
         
-        self.embeddings = OpenAIEmbeddings(openai_api_key=self.openai_api_key)
+        self.provider = provider.lower()
+        
+        # Initialize embeddings based on provider
+        if self.provider == "openai":
+            if not self.openai_api_key:
+                raise ValueError("OpenAI API key required. Set OPENAI_API_KEY environment variable.")
+            self.embeddings = OpenAIEmbeddings(openai_api_key=self.openai_api_key)
+        else:
+            # Default to OpenAI for embeddings (most providers don't have embedding models)
+            if not self.openai_api_key:
+                logger.warning("OpenAI API key required for embeddings even with other providers")
+                raise ValueError("OpenAI API key required for embeddings. Set OPENAI_API_KEY environment variable.")
+            self.embeddings = OpenAIEmbeddings(openai_api_key=self.openai_api_key)
         self.text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=1000,
             chunk_overlap=200,
@@ -135,13 +148,13 @@ class ChunkEmbedder:
         
         logger.info(f"Saved embeddings metadata to: {metadata_file}")
 
-def embed_chunks(discipline: str = "Physics", openai_api_key: str = None):
+def embed_chunks(discipline: str = "Physics", openai_api_key: str = None, provider: str = "openai"):
     """Main function to embed chunks for a discipline."""
     logger.info(f"Starting embedding process for discipline: {discipline}")
     
     try:
-        # Initialize embedder (will automatically use OPENAI_API_KEY env var if available)
-        embedder = ChunkEmbedder(openai_api_key=openai_api_key)
+        # Initialize embedder (will automatically use environment variables if available)
+        embedder = ChunkEmbedder(openai_api_key=openai_api_key, provider=provider)
         
         # Load chunks
         chunks = embedder.load_chunks(discipline)
@@ -175,12 +188,14 @@ def embed_chunks(discipline: str = "Physics", openai_api_key: str = None):
         raise
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Embed textbook chunks using OpenAI embeddings')
+    parser = argparse.ArgumentParser(description='Embed textbook chunks using AI embeddings')
     parser.add_argument('--discipline', '-d', default='Physics', 
                        help='Discipline to embed (default: Physics)')
     parser.add_argument('--openai-api-key', 
                        help='OpenAI API key (optional - uses OPENAI_API_KEY env var by default)')
+    parser.add_argument('--provider', default='openai', choices=['openai'],
+                       help='AI provider for embeddings (default: openai)')
     
     args = parser.parse_args()
     
-    embed_chunks(discipline=args.discipline, openai_api_key=args.openai_api_key)
+    embed_chunks(discipline=args.discipline, openai_api_key=args.openai_api_key, provider=args.provider)
