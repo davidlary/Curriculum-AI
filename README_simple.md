@@ -26,10 +26,6 @@ Each directory is a Git repo with markdown or LaTeX textbook content.
 ## 🏁 Quickstart
 
 ```bash
-# Set your OpenAI API key
-export OPENAI_API_KEY='your-api-key-here'
-
-# Run the pipeline
 python GetOpenBooks.py
 python scripts/parse_textbooks.py
 python scripts/embed_chunks.py
@@ -37,4 +33,3 @@ python scripts/generate_curriculum.py --discipline physics
 python scripts/generate_questions.py --discipline physics
 streamlit run ui/admin_app.py
 ```
-

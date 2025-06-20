@@ -140,7 +140,7 @@ def embed_chunks(discipline: str = "Physics", openai_api_key: str = None):
     logger.info(f"Starting embedding process for discipline: {discipline}")
     
     try:
-        # Initialize embedder
+        # Initialize embedder (will automatically use OPENAI_API_KEY env var if available)
         embedder = ChunkEmbedder(openai_api_key=openai_api_key)
         
         # Load chunks
@@ -179,7 +179,7 @@ if __name__ == '__main__':
     parser.add_argument('--discipline', '-d', default='Physics', 
                        help='Discipline to embed (default: Physics)')
     parser.add_argument('--openai-api-key', 
-                       help='OpenAI API key (or set OPENAI_API_KEY env var)')
+                       help='OpenAI API key (optional - uses OPENAI_API_KEY env var by default)')
     
     args = parser.parse_args()
     

@@ -144,11 +144,16 @@ def main():
         st.header("Configuration")
         
         # OpenAI API Key
-        openai_api_key = st.text_input(
-            "OpenAI API Key",
-            type="password",
-            help="Required for embedding and curriculum generation"
-        )
+        env_api_key = os.getenv("OPENAI_API_KEY", "")
+        if env_api_key:
+            st.success("✅ OpenAI API key found in environment variables")
+            openai_api_key = env_api_key
+        else:
+            openai_api_key = st.text_input(
+                "OpenAI API Key",
+                type="password",
+                help="Required for embedding and curriculum generation (or set OPENAI_API_KEY env var)"
+            )
         
         # Discipline selection
         if admin.disciplines:

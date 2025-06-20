@@ -397,7 +397,7 @@ def generate_curriculum(discipline: str = "Physics", openai_api_key: str = None)
     logger.info(f"Starting curriculum generation for discipline: {discipline}")
     
     try:
-        # Initialize generator
+        # Initialize generator (will automatically use OPENAI_API_KEY env var if available)
         generator = CurriculumGenerator(openai_api_key=openai_api_key)
         
         # Load chunks
@@ -451,7 +451,7 @@ if __name__ == '__main__':
     parser.add_argument('--discipline', '-d', default='Physics',
                        help='Discipline to generate curriculum for (default: Physics)')
     parser.add_argument('--openai-api-key',
-                       help='OpenAI API key (or set OPENAI_API_KEY env var)')
+                       help='OpenAI API key (optional - uses OPENAI_API_KEY env var by default)')
     
     args = parser.parse_args()
     

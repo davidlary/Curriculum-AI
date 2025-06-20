@@ -1,0 +1,8 @@
+{
+  "discipline": "Physics",
+  "num_chunks": 15,
+  "collection_name": "physics_curriculum",
+  "embedding_model": "text-embedding-ada-002",
+  "vector_store": "qdrant",
+  "created_at": "/Users/davidlary/Dropbox/Environments/Code/Curriculum-AI"
+}
