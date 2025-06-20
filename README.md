@@ -215,17 +215,16 @@ GetOpenBooks/
 pip install -r requirements.txt
 
 # Core dependencies include:
-requests>=2.25.0        # API and download operations
-beautifulsoup4>=4.9.0   # HTML parsing for validation
-pandas>=1.3.0           # Data analysis and reporting
-pyyaml>=5.4.0          # Configuration management
-pathlib                # Modern path handling
+requests>=2.28.0        # API and download operations
+PyYAML>=6.0            # Configuration management
+beautifulsoup4>=4.12.0 # HTML parsing for validation
+rich>=13.7.0           # Terminal UI and progress tracking
 ```
 
 ### Optional Dependencies (for PDF processing)
 ```bash
 # For PDF processing with Claude API
-pip install PyPDF2 anthropic rich
+pip install PyPDF2 anthropic
 export ANTHROPIC_API_KEY='your-api-key-here'
 ```
 
