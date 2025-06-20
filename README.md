@@ -306,6 +306,85 @@ pip install PyPDF2 anthropic
 export ANTHROPIC_API_KEY='your-api-key-here'
 ```
 
+## 📖 Reading Downloaded Textbooks
+
+### Example Book Reader
+Use the included `example_book_reader.py` to demonstrate textbook reading capabilities:
+
+```bash
+# Read an example textbook (automatically finds first physics book)
+python example_book_reader.py --read
+
+# List all available textbooks in organized format
+python example_book_reader.py --list
+
+# Search for specific terms in textbooks
+python example_book_reader.py --search "force"
+python example_book_reader.py --search "energy"
+```
+
+### Example Output
+```bash
+$ python example_book_reader.py --read
+
+Reading textbook: osbooks-physics
+Full path: ./Books/english/Physics/HighSchool/osbooks-physics
+
+=== TABLE OF CONTENTS ===
+Found collection file: physics.collection.xml
+Book Title: Physics
+Language: english
+Discipline: Physics
+Level: HighSchool
+Total Entries: 234
+
+First few chapters/sections:
+1. Introduction: The Nature of Science and Physics
+  1.1. Physics: An Introduction
+  1.2. Physical Quantities and Units
+  1.3. Accuracy, Precision, and Significant Figures
+2. Kinematics
+  2.1. Displacement
+
+=== TEXT CONTENT ===
+Format: cnxml
+Title: Physics
+Authors: Paul Peter Urone, Roger Hinrichs
+Number of chapters: 34
+Total text length: 2,847,395 characters
+
+First paragraph:
+Physics is the most basic of the sciences, concerning itself with energy, matter, space and time, and their interactions. Scientific laws and theories express the general truths of nature and the body of knowledge they encompass...
+```
+
+### Programmatic Usage
+You can also import and use the reading functionality in your own scripts:
+
+```python
+from pathlib import Path
+from core.config import OpenBooksConfig
+from core.text_extractor import TextExtractor
+from core.toc_extractor import TOCExtractor
+
+# Initialize
+config = OpenBooksConfig()
+text_extractor = TextExtractor(config)
+toc_extractor = TOCExtractor()
+
+# Read any textbook
+book_path = Path("./Books/english/Physics/HighSchool/osbooks-physics")
+content = text_extractor.extract_content(str(book_path))
+
+# Extract table of contents
+collection_file = book_path / "collections" / "physics.collection.xml"
+toc = toc_extractor.extract_toc(collection_file, "english", "Physics", "HighSchool")
+
+# Access content
+print(f"Book: {content.title}")
+print(f"Chapters: {len(content.chapters)}")
+print(f"Text length: {len(content.raw_text)} characters")
+```
+
 ## 🧪 Testing
 
 ### Run the Test Suite
