@@ -24,6 +24,29 @@ PyPDF2>=3.0.1            # PDF manipulation for Claude API processing (used in p
 anthropic>=0.25.0        # Claude API for advanced PDF text extraction (used in pdf_processor)
 # Note: Set ANTHROPIC_API_KEY environment variable to enable PDF processing
 
+# AI Curriculum Generation Pipeline (new feature)
+langchain>=0.1.0         # LLM application framework for curriculum generation
+langgraph>=0.0.26        # Graph-based workflow orchestration for complex AI tasks
+openai>=1.0.0            # OpenAI API client for GPT models
+streamlit>=1.29.0        # Web interface for admin panel and visualization
+networkx>=3.2            # Graph algorithms for curriculum dependency mapping
+matplotlib>=3.8.0        # Plotting and visualization for curriculum graphs
+
+# Optional: Vector databases for semantic search and embeddings
+qdrant-client>=1.7.0     # Vector database client for semantic similarity (optional)
+chromadb>=0.4.18         # Alternative vector database for embeddings (optional)
+
+# Optional: Advanced text processing and document parsing
+unstructured>=0.11.0     # Document parsing and chunking (optional)
+pdfplumber>=0.9.0        # Alternative PDF text extraction (optional)
+
+# Optional: Graph database integration
+neo4j>=5.15.0           # Graph database for complex curriculum relationships (optional)
+
+# Optional: Workflow orchestration and monitoring
+langsmith>=0.0.69       # LangChain debugging and monitoring (optional)
+prefect>=2.14.0         # Workflow orchestration and scheduling (optional)
+
 # Git repository management
 # Note: Uses system git command via subprocess - requires git system dependency
 
