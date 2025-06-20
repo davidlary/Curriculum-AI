@@ -2,36 +2,30 @@
 # Focused, production-ready system for acquiring and managing OpenStax textbooks
 
 # Core dependencies for GetOpenBooks.py
-requests>=2.28.0          # HTTP requests for API calls and downloads
-PyYAML>=6.0              # Configuration file parsing
+requests>=2.28.0          # HTTP requests for API calls and downloads (used in book_discoverer, openalex_disciplines, pdf_downloader)
+PyYAML>=6.0              # Configuration file parsing (used in config, data_config)
 pathlib                   # Built-in - Modern path handling
 hashlib                   # Built-in - Content hashing and caching
 json                      # Built-in - Data serialization
 logging                   # Built-in - Comprehensive logging system
 
-# Terminal UI and progress tracking
-colorama>=0.4.6          # Cross-platform colored terminal output
-rich>=13.7.0             # Rich text and beautiful formatting for terminal
-
 # System monitoring and parallel processing
-psutil>=5.9.0            # CPU, memory, disk monitoring and resource management
+psutil>=5.9.0            # CPU, memory, disk monitoring and resource management (used in parallel_processor)
 # concurrent.futures      # Built-in - Thread and process pools
 # threading               # Built-in - Thread safety
 # multiprocessing         # Built-in - Multi-core processing
 
-# Git repository management
-GitPython>=3.1.0         # Git repository operations and management
-# Note: Requires git system dependency (install via package manager)
+# Optional: Text extraction and content processing
+beautifulsoup4>=4.12.0   # HTML/XML parsing (optional - used in book_discoverer, text_extractor with try/except)
+lxml>=4.9.0              # Fast XML processing backend for BeautifulSoup (optional)
 
-# Text extraction and content processing
-PyMuPDF>=1.23.0          # PDF text extraction with mathematical notation support
-PyPDF2>=3.0.1            # PDF manipulation for Claude API processing
-beautifulsoup4>=4.12.0   # HTML/XML parsing and text extraction
-lxml>=4.9.0              # Fast XML processing backend for BeautifulSoup
-
-# Optional: AI-powered PDF processing (requires ANTHROPIC_API_KEY)
-anthropic>=0.25.0        # Claude API for advanced PDF text extraction
+# Optional: PDF processing (requires ANTHROPIC_API_KEY)
+PyPDF2>=3.0.1            # PDF manipulation for Claude API processing (used in pdf_processor)
+anthropic>=0.25.0        # Claude API for advanced PDF text extraction (used in pdf_processor)
 # Note: Set ANTHROPIC_API_KEY environment variable to enable PDF processing
+
+# Git repository management
+# Note: Uses system git command via subprocess - requires git system dependency
 
 # Built-in modules (no installation required)
 # xml.etree.ElementTree   # XML parsing
@@ -42,6 +36,19 @@ anthropic>=0.25.0        # Claude API for advanced PDF text extraction
 # typing                  # Type hints and annotations
 # datetime                # Date and time handling
 # time                    # Time utilities
+# subprocess              # Git operations
+# argparse                # Command line parsing
+# sys, os                 # System operations
+# shutil                  # File operations
+# tempfile                # Temporary file handling
+# zipfile                 # Archive handling
+# base64                  # Encoding
+# math                    # Mathematical operations
+# difflib                 # Text comparison
+# functools               # Function utilities
+# threading               # Thread management
+# queue                   # Thread-safe communication
+# asyncio                 # Asynchronous operations
 
 # Testing dependencies
 pytest>=7.4.0           # Modern unit testing framework
@@ -62,7 +69,7 @@ pytest-mock>=3.11.0     # Enhanced mocking capabilities for tests
 #    source venv/bin/activate  # On Windows: venv\Scripts\activate
 #    pip install --upgrade pip setuptools wheel
 
-# 3. Install Dependencies:
+# 3. Install Core Dependencies:
 #    pip install -r requirements.txt
 
 # 4. Optional: PDF Processing with Claude API
@@ -82,7 +89,7 @@ pytest-mock>=3.11.0     # Enhanced mocking capabilities for tests
 # - Python 3.8+
 # - 4 GB RAM (8 GB recommended)
 # - 50 GB free disk space for complete textbook collection
-# - Git 2.30+
+# - Git 2.30+ (system dependency)
 # - Internet connection for repository discovery
 
 # Recommended Configuration:
@@ -97,3 +104,8 @@ pytest-mock>=3.11.0     # Enhanced mocking capabilities for tests
 # - Memory usage scales with collection size (~50 MB per 100 textbooks)
 # - Processing speed: ~10-50 textbooks per minute depending on source format
 # - Books directory excluded from git repository due to size (16GB when populated)
+
+# Optional Features:
+# - BeautifulSoup4: Enhanced HTML/XML parsing for some discovery features
+# - Anthropic + PyPDF2: PDF processing with Claude API for text extraction
+# - All core functionality works without optional dependencies

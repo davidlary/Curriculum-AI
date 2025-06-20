@@ -65,40 +65,93 @@ python GetOpenBooks.py --dry-run --verbose
 
 ### Basic Usage
 ```bash
-# Default: Secure OpenStax-only collection
+# Default: Secure OpenStax-only collection with Git repos, PDFs, and processing
 python GetOpenBooks.py
 
+# Same with detailed progress display
+python GetOpenBooks.py --verbose
+
+# Preview what would be done without executing
+python GetOpenBooks.py --dry-run --verbose
+```
+
+### Language and Subject Filtering
+```bash
 # Multi-language collection with verbose output
 python GetOpenBooks.py --language all --verbose
 
 # Subject-focused collection
 python GetOpenBooks.py --subjects "Physics,Mathematics,Biology"
+
+# Spanish physics and mathematics books only
+python GetOpenBooks.py --language spanish --subjects "Physics,Mathematics"
+
+# Include non-OpenStax repositories for specific subjects
+python GetOpenBooks.py --no-openstax-only --subjects "Physics,Biology"
 ```
 
-### Advanced Operations
+### Download Format Control
 ```bash
-# Preview with contamination analysis
-python GetOpenBooks.py --dry-run --verbose --language all
-
 # Git repositories only (no PDFs)
 python GetOpenBooks.py --git-only
 
-# Maintenance and validation
+# Git repos with PDFs but skip Claude API processing
+python GetOpenBooks.py --no-process-pdfs
+
+# Full download with all processing
+python GetOpenBooks.py --verbose
+```
+
+### Repository Management
+```bash
+# Check for duplicate repositories
 python GetOpenBooks.py --check-duplicates
+
+# Clean up non-OpenStax repositories
 python GetOpenBooks.py --cleanup-non-openstax
 
 # Update existing repositories
-python GetOpenBooks.py --check-updates --verbose
+python GetOpenBooks.py --update-existing --verbose
+
+# Skip update checking for faster operation
+python GetOpenBooks.py --no-check-updates
 ```
 
 ### PDF Processing with Claude API
 ```bash
-# Process PDFs with Claude API (requires ANTHROPIC_API_KEY)
+# Enable PDF processing (requires ANTHROPIC_API_KEY)
 export ANTHROPIC_API_KEY='your-api-key-here'
 python GetOpenBooks.py --process-pdfs --verbose
 
-# Force reprocess all PDFs
+# Force reprocess all PDFs (ignore cache)
 python GetOpenBooks.py --force-pdf-reprocess --verbose
+
+# Download without PDF processing
+python GetOpenBooks.py --no-process-pdfs
+```
+
+### Performance Tuning
+```bash
+# High-performance with more workers
+python GetOpenBooks.py --workers 40 --verbose
+
+# Single-threaded operation
+python GetOpenBooks.py --no-parallel
+
+# Skip search index building for faster operation
+python GetOpenBooks.py --no-index
+```
+
+### Maintenance Operations
+```bash
+# Complete maintenance check
+python GetOpenBooks.py --check-duplicates --verbose
+
+# Clean collection
+python GetOpenBooks.py --cleanup-non-openstax --dry-run --verbose
+
+# Update and process everything
+python GetOpenBooks.py --update-existing --force-pdf-reprocess --verbose
 ```
 
 ## 🏗️ System Architecture
@@ -179,25 +232,50 @@ GetOpenBooks/
 
 ## ⚙️ Configuration Options
 
-### Command Line Options
+### Core Workflow Control
 ```bash
---language LANG             # Language filter (default: english)
---subjects LIST             # Comma-separated subject list
---workers N                 # Number of parallel workers (default: 20)
---git-only                  # Download only Git repositories
---process-pdfs              # Process PDFs with Claude API
---force-pdf-reprocess       # Force reprocess all PDFs
---check-updates             # Update existing repositories
 --dry-run                   # Preview operations without executing
---verbose                   # Detailed progress information
+--verbose, -v               # Enable detailed progress logging
+--config PATH               # Custom configuration file path
+--update-existing           # Update already acquired books
 ```
 
-### Security Options
+### Content Filtering
 ```bash
---openstax-only             # Default: Secure OpenStax-only mode
---no-openstax-only          # CAUTION: May include non-OpenStax content
---check-duplicates          # Check for duplicate repositories
---cleanup-non-openstax      # Remove non-OpenStax repositories
+--language LANG             # Language filter (default: english, options: all, english, spanish, french, polish, german, italian)
+--subjects LIST             # Comma-separated subject list (e.g. "Physics,Mathematics,Biology")
+--openstax-only             # Default: Secure OpenStax-only mode (enabled by default)
+--no-openstax-only          # CAUTION: Include non-OpenStax repositories
+```
+
+### Download Format Control
+```bash
+--git-only                  # Download only Git repositories (no PDFs)
+--no-git-only              # Include PDFs and other formats (default behavior)
+```
+
+### Repository Management
+```bash
+--check-updates             # Check existing repositories for updates (enabled by default)
+--no-check-updates          # Skip checking for repository updates
+--check-duplicates          # Check for and report duplicate repositories
+--cleanup-non-openstax      # Remove non-OpenStax repositories from collection
+```
+
+### Performance Settings
+```bash
+--workers N                 # Number of parallel workers (default: 20)
+--parallel                  # Enable parallel processing (enabled by default)
+--no-parallel              # Disable parallel processing
+--index                     # Build search index (enabled by default)
+--no-index                 # Skip search index building
+```
+
+### PDF Processing with Claude API
+```bash
+--process-pdfs              # Process PDFs using Claude API (enabled by default)
+--no-process-pdfs           # Skip PDF processing
+--force-pdf-reprocess       # Force reprocessing of PDFs (ignore cache)
 ```
 
 ## 🛠️ Requirements
