@@ -1,0 +1,1385 @@
+{
+  "entries": [
+    {
+      "title": "Physics",
+      "level": 0,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_0"
+    },
+    {
+      "title": "What is Physics?",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_1"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_2"
+    },
+    {
+      "title": "Physics: Definitions and Applications",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_3"
+    },
+    {
+      "title": "The Scientific Methods",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_4"
+    },
+    {
+      "title": "The Language of Physics: Physical Quantities and Units",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_5"
+    },
+    {
+      "title": "Motion in One Dimension",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_6"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_7"
+    },
+    {
+      "title": "Relative Motion, Distance, and Displacement",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_8"
+    },
+    {
+      "title": "Speed and Velocity",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_9"
+    },
+    {
+      "title": "Position vs. Time Graphs",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_10"
+    },
+    {
+      "title": "Velocity vs. Time Graphs",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_11"
+    },
+    {
+      "title": "Acceleration",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_12"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_13"
+    },
+    {
+      "title": "Acceleration",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_14"
+    },
+    {
+      "title": "Representing Acceleration with Equations and Graphs",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_15"
+    },
+    {
+      "title": "Forces and Newton’s Laws of Motion",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_16"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_17"
+    },
+    {
+      "title": "Force",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_18"
+    },
+    {
+      "title": "Newton's First Law of Motion: Inertia",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_19"
+    },
+    {
+      "title": "Newton's Second Law of Motion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_20"
+    },
+    {
+      "title": "Newton's Third Law of Motion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_21"
+    },
+    {
+      "title": "Motion in Two Dimensions",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_22"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_23"
+    },
+    {
+      "title": "Vector Addition and Subtraction: Graphical Methods",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_24"
+    },
+    {
+      "title": "Vector Addition and Subtraction: Analytical Methods",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_25"
+    },
+    {
+      "title": "Projectile Motion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_26"
+    },
+    {
+      "title": "Inclined Planes",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_27"
+    },
+    {
+      "title": "Simple Harmonic Motion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_28"
+    },
+    {
+      "title": "Circular and Rotational Motion",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_29"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_30"
+    },
+    {
+      "title": "Angle of Rotation and Angular Velocity",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_31"
+    },
+    {
+      "title": "Uniform Circular Motion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_32"
+    },
+    {
+      "title": "Rotational Motion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_33"
+    },
+    {
+      "title": "Newton's Law of Gravitation",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_34"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_35"
+    },
+    {
+      "title": "Kepler's Laws of Planetary Motion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_36"
+    },
+    {
+      "title": "Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_37"
+    },
+    {
+      "title": "Momentum",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_38"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_39"
+    },
+    {
+      "title": "Linear Momentum, Force, and Impulse",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_40"
+    },
+    {
+      "title": "Conservation of Momentum",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_41"
+    },
+    {
+      "title": "Elastic and Inelastic Collisions",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_42"
+    },
+    {
+      "title": "Work, Energy, and Simple Machines",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_43"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_44"
+    },
+    {
+      "title": "Work, Power, and the Work–Energy Theorem",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_45"
+    },
+    {
+      "title": "Mechanical Energy and Conservation of Energy",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_46"
+    },
+    {
+      "title": "Simple Machines",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_47"
+    },
+    {
+      "title": "Special Relativity",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_48"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_49"
+    },
+    {
+      "title": "Postulates of Special Relativity",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_50"
+    },
+    {
+      "title": "Consequences of Special Relativity",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_51"
+    },
+    {
+      "title": "Thermal Energy, Heat, and Work",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_52"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_53"
+    },
+    {
+      "title": "Temperature and Thermal Energy",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_54"
+    },
+    {
+      "title": "Heat, Specific Heat, and Heat Transfer",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_55"
+    },
+    {
+      "title": "Phase Change and Latent Heat",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_56"
+    },
+    {
+      "title": "Thermodynamics",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_57"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_58"
+    },
+    {
+      "title": "Zeroth Law of Thermodynamics: Thermal Equilibrium",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_59"
+    },
+    {
+      "title": "First law of Thermodynamics: Thermal Energy and Work",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_60"
+    },
+    {
+      "title": "Second Law of Thermodynamics: Entropy",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_61"
+    },
+    {
+      "title": "Applications of Thermodynamics: Heat Engines, Heat Pumps, and Refrigerators",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_62"
+    },
+    {
+      "title": "Waves and Their Properties",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_63"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_64"
+    },
+    {
+      "title": "Types of Waves",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_65"
+    },
+    {
+      "title": "Wave Properties: Speed, Amplitude, Frequency, and Period",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_66"
+    },
+    {
+      "title": "Wave Interaction: Superposition and Interference",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_67"
+    },
+    {
+      "title": "Sound",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_68"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_69"
+    },
+    {
+      "title": "Speed of Sound, Frequency, and Wavelength",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_70"
+    },
+    {
+      "title": "Sound Intensity and Sound Level",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_71"
+    },
+    {
+      "title": "Doppler Effect and Sonic Booms",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_72"
+    },
+    {
+      "title": "Sound Interference and Resonance",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_73"
+    },
+    {
+      "title": "Light",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_74"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_75"
+    },
+    {
+      "title": "The Electromagnetic Spectrum",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_76"
+    },
+    {
+      "title": "The Behavior of Electromagnetic Radiation",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_77"
+    },
+    {
+      "title": "Mirrors and Lenses",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_78"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_79"
+    },
+    {
+      "title": "Reflection",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_80"
+    },
+    {
+      "title": "Refraction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_81"
+    },
+    {
+      "title": "Lenses",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_82"
+    },
+    {
+      "title": "Diffraction and Interference",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_83"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_84"
+    },
+    {
+      "title": "Understanding Diffraction and Interference",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_85"
+    },
+    {
+      "title": "Applications of Diffraction, Interference, and Coherence",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_86"
+    },
+    {
+      "title": "Static Electricity",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_87"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_88"
+    },
+    {
+      "title": "Electrical Charges, Conservation of Charge, and Transfer of Charge",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_89"
+    },
+    {
+      "title": "Coulomb's law",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_90"
+    },
+    {
+      "title": "Electric Field",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_91"
+    },
+    {
+      "title": "Electric Potential",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_92"
+    },
+    {
+      "title": "Capacitors and Dielectrics",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_93"
+    },
+    {
+      "title": "Electrical Circuits",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_94"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_95"
+    },
+    {
+      "title": "Ohm's law",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_96"
+    },
+    {
+      "title": "Series Circuits",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_97"
+    },
+    {
+      "title": "Parallel Circuits",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_98"
+    },
+    {
+      "title": "Electric Power",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_99"
+    },
+    {
+      "title": "Magnetism",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_100"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_101"
+    },
+    {
+      "title": "Magnetic Fields, Field Lines, and Force",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_102"
+    },
+    {
+      "title": "Motors, Generators, and Transformers",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_103"
+    },
+    {
+      "title": "Electromagnetic Induction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_104"
+    },
+    {
+      "title": "The Quantum Nature of Light",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_105"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_106"
+    },
+    {
+      "title": "Planck and Quantum Nature of Light",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_107"
+    },
+    {
+      "title": "Einstein and the Photoelectric Effect",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_108"
+    },
+    {
+      "title": "The Dual Nature of Light",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_109"
+    },
+    {
+      "title": "The Atom",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_110"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_111"
+    },
+    {
+      "title": "The Structure of the Atom",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_112"
+    },
+    {
+      "title": "Nuclear Forces and Radioactivity",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_113"
+    },
+    {
+      "title": "Half Life and Radiometric Dating",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_114"
+    },
+    {
+      "title": "Nuclear Fission and Fusion",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_115"
+    },
+    {
+      "title": "Medical Applications of Radioactivity: Diagnostic Imaging and Radiation",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_116"
+    },
+    {
+      "title": "Particle Physics",
+      "level": 1,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_117"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_118"
+    },
+    {
+      "title": "The Four Fundamental Forces",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_119"
+    },
+    {
+      "title": "Quarks",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_120"
+    },
+    {
+      "title": "The Unification of Forces",
+      "level": 2,
+      "original_book": "Physics",
+      "academic_level": "high_school",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "entry_121"
+    },
+    {
+      "title": "Astronomy 2e",
+      "level": 0,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_0"
+    },
+    {
+      "title": "Science and the Universe: A Brief Tour",
+      "level": 1,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_1"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_2"
+    },
+    {
+      "title": "The Nature of Astronomy",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_3"
+    },
+    {
+      "title": "The Nature of Science",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_4"
+    },
+    {
+      "title": "The Laws of Nature",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_5"
+    },
+    {
+      "title": "Numbers in Astronomy",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_6"
+    },
+    {
+      "title": "Consequences of Light Travel Time",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_7"
+    },
+    {
+      "title": "A Tour of the Universe",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_8"
+    },
+    {
+      "title": "The Universe on the Large Scale",
+      "level": 2,
+      "original_book": "Astronomy 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "Astronomy 2e_9"
+    },
+    {
+      "title": "College Physics 2e",
+      "level": 0,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_0"
+    },
+    {
+      "title": "Introduction: The Nature of Science and Physics",
+      "level": 1,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_1"
+    },
+    {
+      "title": "Introduction to Science and the Realm of Physics, Physical Quantities, and Units",
+      "level": 2,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_2"
+    },
+    {
+      "title": "Physics: An Introduction",
+      "level": 2,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_3"
+    },
+    {
+      "title": "Physical Quantities and Units",
+      "level": 2,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_4"
+    },
+    {
+      "title": "Accuracy, Precision, and Significant Figures",
+      "level": 2,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_5"
+    },
+    {
+      "title": "Approximation",
+      "level": 2,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_6"
+    },
+    {
+      "title": "Kinematics",
+      "level": 1,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_7"
+    },
+    {
+      "title": "Introduction to One-Dimensional Kinematics",
+      "level": 2,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_8"
+    },
+    {
+      "title": "Displacement",
+      "level": 2,
+      "original_book": "College Physics 2e",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "College Physics 2e_9"
+    },
+    {
+      "title": "University Physics Volume 3",
+      "level": 0,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_0"
+    },
+    {
+      "title": "Optics",
+      "level": 1,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_1"
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_2"
+    },
+    {
+      "title": "The Propagation of Light",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_3"
+    },
+    {
+      "title": "The Law of Reflection",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_4"
+    },
+    {
+      "title": "Refraction",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_5"
+    },
+    {
+      "title": "Total Internal Reflection",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_6"
+    },
+    {
+      "title": "Dispersion",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_7"
+    },
+    {
+      "title": "Huygens’s Principle",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_8"
+    },
+    {
+      "title": "Polarization",
+      "level": 2,
+      "original_book": "University Physics Volume 3",
+      "academic_level": "graduate",
+      "tags": [],
+      "parent_id": null,
+      "entry_id": "University Physics Volume 3_9"
+    }
+  ],
+  "academic_levels": [
+    "high_school",
+    "graduate"
+  ],
+  "source_books": [
+    "Physics",
+    "Astronomy 2e",
+    "College Physics 2e",
+    "University Physics Volume 3"
+  ],
+  "version": "1.0",
+  "created_at": "2025-06-23T17:02:41.246734",
+  "change_log": []
+}

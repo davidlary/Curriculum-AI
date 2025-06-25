@@ -1,134 +1,144 @@
-# GetOpenBooks - OpenStax Textbook Acquisition System Dependencies
-# Focused, production-ready system for acquiring and managing OpenStax textbooks
+# Curriculum AI - Complete AI-Powered Educational Content Generation System
+# OpenStax textbook acquisition + AI curriculum generation with multi-provider support
 
-# Core dependencies for GetOpenBooks.py
-requests>=2.28.0          # HTTP requests for API calls and downloads (used in book_discoverer, openalex_disciplines, pdf_downloader)
-PyYAML>=6.0              # Configuration file parsing (used in config, data_config)
-pathlib                   # Built-in - Modern path handling
-hashlib                   # Built-in - Content hashing and caching
-json                      # Built-in - Data serialization
-logging                   # Built-in - Comprehensive logging system
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
 
-# System monitoring and parallel processing
-psutil>=5.9.0            # CPU, memory, disk monitoring and resource management (used in parallel_processor)
-# concurrent.futures      # Built-in - Thread and process pools
-# threading               # Built-in - Thread safety
-# multiprocessing         # Built-in - Multi-core processing
+# GetOpenBooks - Textbook Acquisition System
+requests>=2.28.0          # HTTP requests for API calls and downloads
+PyYAML>=6.0              # Configuration file parsing
+beautifulsoup4>=4.12.0   # HTML/XML parsing for discovery and content processing
+psutil>=5.9.0            # System monitoring and resource management
 
-# Optional: Text extraction and content processing
-beautifulsoup4>=4.12.0   # HTML/XML parsing (optional - used in book_discoverer, text_extractor with try/except)
-lxml>=4.9.0              # Fast XML processing backend for BeautifulSoup (optional)
+# AI Framework Core
+langchain>=0.3.0         # LLM application framework
+langchain-community>=0.3.0  # Community integrations for langchain
+langgraph>=0.4.0         # Graph-based workflow orchestration
+langchain-text-splitters>=0.3.0  # Text chunking and splitting
 
-# Optional: PDF processing (requires ANTHROPIC_API_KEY)
-PyPDF2>=3.0.1            # PDF manipulation for Claude API processing (used in pdf_processor)
-anthropic>=0.25.0        # Claude API for advanced PDF text extraction (used in pdf_processor)
-# Note: Set ANTHROPIC_API_KEY environment variable to enable PDF processing
+# AI Providers
+openai>=1.0.0            # OpenAI API (GPT-4, GPT-3.5-turbo, embeddings)
+langchain-anthropic>=0.3.0  # Anthropic Claude integration
+anthropic>=0.54.0        # Direct Anthropic API client
 
-# AI Curriculum Generation Pipeline (new feature)
-langchain>=0.1.0         # LLM application framework for curriculum generation
-langgraph>=0.0.26        # Graph-based workflow orchestration for complex AI tasks
-openai>=1.0.0            # OpenAI API client for GPT models
-streamlit>=1.29.0        # Web interface for admin panel and visualization
-networkx>=3.2            # Graph algorithms for curriculum dependency mapping
-matplotlib>=3.8.0        # Plotting and visualization for curriculum graphs
+# Vector Databases and Embeddings
+qdrant-client>=1.7.0     # Vector database for semantic search
+chromadb>=0.4.18         # Alternative vector database
 
-# Optional: Vector databases for semantic search and embeddings
-qdrant-client>=1.7.0     # Vector database client for semantic similarity (optional)
-chromadb>=0.4.18         # Alternative vector database for embeddings (optional)
+# Web Interface and Visualization
+streamlit>=1.32.0        # Interactive web admin panel
+plotly>=5.15.0           # Interactive charts and visualizations
+pandas>=2.0.0            # Data manipulation for analytics
 
-# Optional: Advanced text processing and document parsing
-unstructured>=0.11.0     # Document parsing and chunking (optional)
-pdfplumber>=0.9.0        # Alternative PDF text extraction (optional)
+# Graph Processing and Visualization
+networkx>=3.2            # Graph algorithms for curriculum dependencies
+matplotlib>=3.8.0        # Static plotting for curriculum graphs
 
-# Optional: Graph database integration
-neo4j>=5.15.0           # Graph database for complex curriculum relationships (optional)
+# Document Processing
+unstructured>=0.11.0     # Advanced document parsing
+pdfplumber>=0.9.0        # PDF text extraction
+PyPDF2>=3.0.1            # PDF manipulation
 
-# Optional: Workflow orchestration and monitoring
-langsmith>=0.0.69       # LangChain debugging and monitoring (optional)
-prefect>=2.14.0         # Workflow orchestration and scheduling (optional)
+# Development and Monitoring
+langsmith>=0.3.0         # LangChain debugging and monitoring
+prefect>=2.14.0          # Workflow orchestration (optional)
 
-# Git repository management
-# Note: Uses system git command via subprocess - requires git system dependency
+# ============================================================================
+# TESTING DEPENDENCIES
+# ============================================================================
 
-# Built-in modules (no installation required)
-# xml.etree.ElementTree   # XML parsing
-# re                      # Regular expressions and text processing
-# sqlite3                 # Search index database
-# collections             # Data structures
-# dataclasses             # Structured data classes (Python 3.7+)
-# typing                  # Type hints and annotations
-# datetime                # Date and time handling
-# time                    # Time utilities
-# subprocess              # Git operations
-# argparse                # Command line parsing
-# sys, os                 # System operations
-# shutil                  # File operations
-# tempfile                # Temporary file handling
-# zipfile                 # Archive handling
-# base64                  # Encoding
-# math                    # Mathematical operations
-# difflib                 # Text comparison
-# functools               # Function utilities
-# threading               # Thread management
-# queue                   # Thread-safe communication
-# asyncio                 # Asynchronous operations
-
-# Testing dependencies
 pytest>=7.4.0           # Modern unit testing framework
-pytest-cov>=4.0.0       # Test coverage measurement and reporting
-pytest-mock>=3.11.0     # Enhanced mocking capabilities for tests
+pytest-cov>=4.0.0       # Test coverage measurement
+pytest-mock>=3.11.0     # Enhanced mocking for tests
+
+# ============================================================================
+# ENVIRONMENT VARIABLES
+# ============================================================================
+
+# Required for AI features:
+# export OPENAI_API_KEY='sk-...'           # Required for embeddings and OpenAI models
+# export ANTHROPIC_API_KEY='sk-ant-...'    # Optional for Claude models
+# export XAI_API_KEY='xai-...'             # Optional for Grok models
+
+# Optional for monitoring:
+# export LANGSMITH_API_KEY='...'           # Optional for LangChain monitoring
+# export LANGSMITH_TRACING=true            # Enable tracing
 
 # ============================================================================
 # INSTALLATION INSTRUCTIONS
 # ============================================================================
 
-# 1. System Dependencies (install via package manager):
+# 1. System Dependencies:
 #    macOS:     brew install git
 #    Ubuntu:    sudo apt install git python3-dev
 #    Windows:   Download Git from git-scm.com
 
-# 2. Python Environment Setup:
+# 2. Python Environment:
 #    python -m venv venv
-#    source venv/bin/activate  # On Windows: venv\Scripts\activate
+#    source venv/bin/activate  # Windows: venv\Scripts\activate
 #    pip install --upgrade pip setuptools wheel
 
-# 3. Install Core Dependencies:
+# 3. Install Dependencies:
 #    pip install -r requirements.txt
 
-# 4. Optional: PDF Processing with Claude API
-#    export ANTHROPIC_API_KEY='your-api-key-here'
+# 4. Set API Keys:
+#    export OPENAI_API_KEY='your-openai-key'
+#    export ANTHROPIC_API_KEY='your-anthropic-key'  # Optional
+#    export XAI_API_KEY='your-xai-key'              # Optional
 
-# 5. Run Tests:
-#    python -m pytest tests/ -v
-
-# 6. Quick Start:
-#    python GetOpenBooks.py --dry-run --verbose
+# 5. Quick Start:
+#    python GetOpenBooks.py
+#    python scripts/parse_textbooks.py
+#    python scripts/embed_chunks.py
+#    python scripts/generate_curriculum.py --provider anthropic
+#    python scripts/generate_questions.py --provider openai
+#    streamlit run ui/admin_app.py
 
 # ============================================================================
 # SYSTEM REQUIREMENTS
 # ============================================================================
 
-# Minimum Requirements:
+# Minimum:
 # - Python 3.8+
-# - 4 GB RAM (8 GB recommended)
-# - 50 GB free disk space for complete textbook collection
-# - Git 2.30+ (system dependency)
-# - Internet connection for repository discovery
+# - 8 GB RAM
+# - 50 GB disk space
+# - Git 2.30+
 
-# Recommended Configuration:
+# Recommended:
 # - Python 3.11+
-# - 16 GB RAM for large collections
-# - SSD storage for optimal performance
-# - Multi-core CPU (system auto-detects and uses available cores)
-# - Stable internet connection for parallel downloads
+# - 16 GB RAM
+# - SSD storage
+# - Multi-core CPU
+# - Stable internet
 
-# Performance Notes:
-# - Parallel processing automatically scales to available CPU cores
-# - Memory usage scales with collection size (~50 MB per 100 textbooks)
-# - Processing speed: ~10-50 textbooks per minute depending on source format
-# - Books directory excluded from git repository due to size (16GB when populated)
+# Performance:
+# - Parallel processing auto-scales to CPU cores
+# - ~10-50 textbooks/minute processing speed
+# - Memory scales with collection size
+# - OpenAI API calls: ~$0.10-0.50 per curriculum
+# - Anthropic API calls: ~$0.05-0.25 per curriculum
 
-# Optional Features:
-# - BeautifulSoup4: Enhanced HTML/XML parsing for some discovery features
-# - Anthropic + PyPDF2: PDF processing with Claude API for text extraction
-# - All core functionality works without optional dependencies
+# ============================================================================
+# FEATURES
+# ============================================================================
+
+# OpenStax Textbook Acquisition:
+# ✅ 52+ verified repositories across 6 languages
+# ✅ Automatic educational level classification
+# ✅ Zero contamination protection
+# ✅ 98% reading success rate
+
+# AI Curriculum Generation:
+# ✅ Multi-provider support (OpenAI, Anthropic, XAI)
+# ✅ LangGraph workflows for complex AI pipelines
+# ✅ ~1000 subtopics per discipline
+# ✅ Prerequisite-aware curriculum graphs
+# ✅ Bloom taxonomy question generation
+# ✅ Interactive Streamlit admin interface
+
+# Built-in Modules (no installation required):
+# pathlib, hashlib, json, logging, xml.etree.ElementTree, re, sqlite3,
+# collections, dataclasses, typing, datetime, time, subprocess, argparse,
+# sys, os, shutil, tempfile, zipfile, base64, math, difflib, functools,
+# threading, queue, asyncio, concurrent.futures, multiprocessing

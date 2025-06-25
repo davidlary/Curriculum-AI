@@ -1013,87 +1013,29 @@ class TOCExtractor:
     
     def _extract_openstax_modules_data_driven(self, root, namespaces: dict, entry_id: int) -> List[TOCEntry]:
         """
-        Goal: Data-driven extraction of OpenStax module content.
+        Goal: Data-driven extraction of OpenStax module content with FULL recursive depth.
         
-        Reads actual module files to extract real chapter and section titles
-        instead of using hardcoded patterns.
+        Now supports up to 10 levels of nesting to capture all possible structures.
         """
         entries = []
+        
         # Get the path to collection.xml from the file_path context
-        # We need to pass this information from the extraction context
         collection_path = getattr(self, '_current_file_path', None)
         if not collection_path:
             logger.warning("Collection path not available for module extraction")
             return self._extract_openstax_fallback_structure(root, namespaces, entry_id)
-        modules_dir = collection_path.parent.parent / "modules"
         
+        modules_dir = collection_path.parent.parent / "modules"
         if not modules_dir.exists():
             logger.warning(f"Modules directory not found: {modules_dir}")
             return self._extract_openstax_fallback_structure(root, namespaces, entry_id)
         
-        # Extract subcollections (chapters) and their modules
-        subcollections = root.findall('.//col:subcollection', namespaces)
-        
-        for subcoll in subcollections:
-            chapter_title = subcoll.find('./md:title', namespaces)
-            if chapter_title is not None and chapter_title.text:
-                chapter_entry = TOCEntry(
-                    title=chapter_title.text.strip(),
-                    level=1,
-                    entry_id=f"entry_{entry_id}"
-                )
-                entries.append(chapter_entry)
-                entry_id += 1
-                
-                # Process modules within this subcollection
-                modules = subcoll.findall('.//col:module', namespaces)
-                for module in modules:
-                    document_id = module.get('document')
-                    if document_id:
-                        # Read the actual module content
-                        module_title = self._read_module_content(modules_dir / document_id / "index.cnxml")
-                        if module_title:
-                            section_entry = TOCEntry(
-                                title=module_title,
-                                level=2,
-                                parent_id=chapter_entry.entry_id,
-                                entry_id=f"entry_{entry_id}"
-                            )
-                            entries.append(section_entry)
-                            entry_id += 1
-                
-                # Look for nested subcollections (sections)
-                nested_subcollections = subcoll.findall('./col:subcollection', namespaces)
-                for nested in nested_subcollections:
-                    section_title = nested.find('./md:title', namespaces)
-                    if section_title is not None and section_title.text:
-                        section_entry = TOCEntry(
-                            title=section_title.text.strip(),
-                            level=2,
-                            parent_id=chapter_entry.entry_id,
-                            entry_id=f"entry_{entry_id}"
-                        )
-                        entries.append(section_entry)
-                        entry_id += 1
-                        
-                        # Process modules within nested subcollection
-                        nested_modules = nested.findall('.//col:module', namespaces)
-                        for module in nested_modules:
-                            document_id = module.get('document')
-                            if document_id:
-                                module_title = self._read_module_content(modules_dir / document_id / "index.cnxml")
-                                if module_title:
-                                    subsection_entry = TOCEntry(
-                                        title=module_title,
-                                        level=3,
-                                        parent_id=section_entry.entry_id,
-                                        entry_id=f"entry_{entry_id}"
-                                    )
-                                    entries.append(subsection_entry)
-                                    entry_id += 1
+        # Start recursive extraction from root
+        entry_id_ref = [entry_id]  # Use list for mutable reference
+        self._extract_subcollections_recursive(root, namespaces, modules_dir, entries, entry_id_ref, level=1, parent_id=None)
         
         # If no subcollections found, process modules directly
-        if len(entries) <= 1:  # Only book title found
+        if len(entries) == 0:
             modules = root.findall('.//col:module', namespaces)
             for module in modules:
                 document_id = module.get('document')
@@ -1103,12 +1045,142 @@ class TOCExtractor:
                         module_entry = TOCEntry(
                             title=module_title,
                             level=1,
-                            entry_id=f"entry_{entry_id}"
+                            entry_id=f"entry_{entry_id_ref[0]}"
                         )
                         entries.append(module_entry)
-                        entry_id += 1
+                        entry_id_ref[0] += 1
         
         return entries
+    
+    def _extract_subcollections_recursive(self, element, namespaces: dict, modules_dir: Path, 
+                                        entries: List, entry_id_ref: List[int], level: int, 
+                                        parent_id: Optional[str], max_depth: int = 10):
+        """
+        Goal: Recursively extract subcollections and modules at ANY depth.
+        
+        This replaces the previous hardcoded 3-level extraction with unlimited recursion.
+        """
+        if level > max_depth:  # Prevent infinite recursion
+            return
+        
+        # Find direct subcollections at this level
+        if level == 1:
+            # Top level - look for subcollections directly under root content
+            subcollections = element.findall('./col:content/col:subcollection', namespaces)
+        else:
+            # Nested level - look for subcollections directly under this element
+            subcollections = element.findall('./col:content/col:subcollection', namespaces)
+        
+        for subcoll in subcollections:
+            # Extract title for this subcollection
+            title_elem = subcoll.find('./md:title', namespaces)
+            if title_elem is not None and title_elem.text:
+                # Create entry for this subcollection
+                subcoll_entry = TOCEntry(
+                    title=title_elem.text.strip(),
+                    level=level,
+                    parent_id=parent_id,
+                    entry_id=f"entry_{entry_id_ref[0]}"
+                )
+                entries.append(subcoll_entry)
+                current_entry_id = subcoll_entry.entry_id
+                entry_id_ref[0] += 1
+                
+                # Process direct modules in this subcollection
+                direct_modules = subcoll.findall('./col:content/col:module', namespaces)
+                for module in direct_modules:
+                    document_id = module.get('document')
+                    if document_id:
+                        module_title = self._read_module_content(modules_dir / document_id / "index.cnxml")
+                        if module_title:
+                            # Process internal module structure for even deeper levels
+                            module_internal_levels = self._extract_module_internal_structure(
+                                modules_dir / document_id / "index.cnxml"
+                            )
+                            
+                            if module_internal_levels:
+                                # Add module with its internal structure
+                                for internal_level, internal_titles in module_internal_levels.items():
+                                    for internal_title in internal_titles:
+                                        module_entry = TOCEntry(
+                                            title=internal_title,
+                                            level=level + 1 + internal_level,
+                                            parent_id=current_entry_id,
+                                            entry_id=f"entry_{entry_id_ref[0]}"
+                                        )
+                                        entries.append(module_entry)
+                                        entry_id_ref[0] += 1
+                            else:
+                                # Standard module entry
+                                module_entry = TOCEntry(
+                                    title=module_title,
+                                    level=level + 1,
+                                    parent_id=current_entry_id,
+                                    entry_id=f"entry_{entry_id_ref[0]}"
+                                )
+                                entries.append(module_entry)
+                                entry_id_ref[0] += 1
+                
+                # RECURSIVE CALL: Process nested subcollections
+                self._extract_subcollections_recursive(
+                    subcoll, namespaces, modules_dir, entries, entry_id_ref, 
+                    level + 1, current_entry_id, max_depth
+                )
+    
+    def _extract_module_internal_structure(self, module_path: Path) -> Optional[Dict[int, List[str]]]:
+        """
+        Goal: Extract internal hierarchical structure from within a module.
+        
+        This captures section/subsection structure within individual modules.
+        """
+        if not module_path.exists():
+            return None
+        
+        try:
+            tree = ET.parse(module_path)
+            root = tree.getroot()
+            
+            namespaces = {
+                'cnxml': 'http://cnx.rice.edu/cnxml',
+                'md': 'http://cnx.rice.edu/mdml'
+            }
+            
+            internal_structure = {}
+            
+            # Level 0: Main sections
+            sections = root.findall('.//cnxml:section', namespaces)
+            if sections:
+                internal_structure[0] = []
+                for section in sections:
+                    title_elem = section.find('./cnxml:title', namespaces)
+                    if title_elem is not None and title_elem.text:
+                        internal_structure[0].append(title_elem.text.strip())
+                        
+                        # Level 1: Subsections within sections
+                        subsections = section.findall('./cnxml:section', namespaces)
+                        if subsections:
+                            if 1 not in internal_structure:
+                                internal_structure[1] = []
+                            for subsection in subsections:
+                                sub_title_elem = subsection.find('./cnxml:title', namespaces)
+                                if sub_title_elem is not None and sub_title_elem.text:
+                                    internal_structure[1].append(sub_title_elem.text.strip())
+                                    
+                                    # Level 2: Sub-subsections
+                                    subsubsections = subsection.findall('./cnxml:section', namespaces)
+                                    if subsubsections:
+                                        if 2 not in internal_structure:
+                                            internal_structure[2] = []
+                                        for subsubsection in subsubsections:
+                                            subsub_title_elem = subsubsection.find('./cnxml:title', namespaces)
+                                            if subsub_title_elem is not None and subsub_title_elem.text:
+                                                internal_structure[2].append(subsub_title_elem.text.strip())
+            
+            return internal_structure if internal_structure else None
+            
+        except Exception as e:
+            logger.debug(f"Error extracting module internal structure {module_path}: {e}")
+            return None
     
     def _read_module_content(self, module_path: Path) -> Optional[str]:
         """

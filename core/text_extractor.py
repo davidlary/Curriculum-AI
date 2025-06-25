@@ -361,8 +361,12 @@ class TextExtractor:
             raw_text = ""
             
             for chapter_elem in root.findall('.//{http://cnx.rice.edu/collxml}subcollection'):
-                chapter_title_elem = chapter_elem.find('{http://cnx.rice.edu/collxml}title')
-                chapter_title = chapter_title_elem.text if chapter_title_elem is not None else "Untitled Chapter"
+                # Look for title in both md and col namespaces
+                chapter_title_elem = chapter_elem.find('{http://cnx.rice.edu/mdml}title')
+                if chapter_title_elem is None:
+                    chapter_title_elem = chapter_elem.find('{http://cnx.rice.edu/collxml}title')
+                
+                chapter_title = chapter_title_elem.text if chapter_title_elem is not None else f"Chapter {len(chapters) + 1}"
                 
                 chapter_content = ""
                 subsections = []
@@ -420,13 +424,17 @@ class TextExtractor:
     def _extract_cnxml_module(self, cnxml_dir: Path, module_id: str) -> Optional[str]:
         """Extract text content from a CNXML module."""
         try:
-            # Look for module file
+            # Look for module file in various possible locations
             module_file = cnxml_dir / f"{module_id}.cnxml"
             if not module_file.exists():
-                # Try in modules subdirectory
+                # Try in modules subdirectory (flat structure)
                 modules_dir = cnxml_dir / 'modules'
                 if modules_dir.exists():
                     module_file = modules_dir / f"{module_id}.cnxml"
+                    
+                    if not module_file.exists():
+                        # Try in modules/{module_id}/index.cnxml (OpenStax standard)
+                        module_file = modules_dir / module_id / "index.cnxml"
             
             if not module_file.exists():
                 logger.debug(f"Module file not found: {module_id}")
@@ -687,15 +695,39 @@ class TextExtractor:
             return None
     
     def _extract_chapter_title(self, text: str) -> str:
-        """Extract chapter title from text."""
+        """Extract chapter title from text using multiple patterns."""
         lines = text.split('\n')
-        for line in lines:
-            if 'Chapter' in line or 'CHAPTER' in line:
-                # Look for title on same line or next line
-                title_match = re.search(r'Chapter\s+\d+[:\s]+(.+)', line, re.IGNORECASE)
-                if title_match:
-                    return title_match.group(1).strip()
-        return "Untitled Chapter"
+        
+        # Try multiple patterns to extract meaningful titles
+        patterns = [
+            r'Chapter\s+\d+[:\s]+(.+)',  # Chapter 1: Title
+            r'(\w+(?:\s+\w+){1,5})\s*\n',  # First meaningful line
+            r'^([A-Z][^.!?]*[.!?]?)\s*$',  # Capitalized sentence
+            r'Section\s+[\d.]+[:\s]+(.+)',  # Section 1.1: Title
+            r'^(.{10,80})\s*$'  # Any reasonable length line
+        ]
+        
+        for line in lines[:10]:  # Check first 10 lines
+            line = line.strip()
+            if not line or len(line) < 5:
+                continue
+                
+            for pattern in patterns:
+                match = re.search(pattern, line, re.IGNORECASE)
+                if match:
+                    title = match.group(1).strip()
+                    # Filter out common non-title content
+                    if not any(skip in title.lower() for skip in ['teacher support', 'learning objectives', 'by the end']):
+                        if len(title) > 5 and len(title) < 100:
+                            return title
+        
+        # Fallback: use first substantial line
+        for line in lines[:5]:
+            line = line.strip()
+            if len(line) > 10 and len(line) < 100:
+                return line
+                
+        return "Content Section"
     
     def _extract_formulas(self, text: str) -> List[str]:
         """Extract mathematical formulas from text."""

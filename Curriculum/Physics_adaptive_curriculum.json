@@ -1,0 +1,3178 @@
+{
+  "subtopics": [
+    {
+      "name": "Equations",
+      "description": "Representing Acceleration with Equations and Graphs m54116 Representing Acceleration with Equations and Graphs e83ad5af-9be3-4288-93db-960ddd87f11e Section Learning Objectives By the end of this secti",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain the kinematic equations related to acceleration and illustrate them with graphs Apply the kinematic equations and related graphs to problems involving acceleration Teacher Support The Learning Objectives in this section will help your students master..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Algebra"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application",
+        "Data analysis"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m54116",
+      "content_preview": "Representing Acceleration with Equations and Graphs m54116 Representing Acceleration with Equations and Graphs e83ad5af-9be3-4288-93db-960ddd87f11e Section Learning Objectives By the end of this secti...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 1
+    },
+    {
+      "name": "Motion: Inertia Newton's First Law of Motion: Inertia Section Learning Objectives By the end of this section",
+      "description": "Newton's First Law of Motion: Inertia m54138 Newton's First Law of Motion: Inertia 02d55ef3-d7de-4f63-a118-6d4d18bd73b0 Section Learning Objectives By the end of this section, you will be able to do t",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe Newton’s first law and friction, and Discuss the relationship between mass and inertia. Teacher Support The learning objectives in this section will help students master the following standards: (4) Science concepts. The student knows and applies the laws governing motion in a..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54138",
+      "content_preview": "Newton's First Law of Motion: Inertia m54138 Newton's First Law of Motion: Inertia 02d55ef3-d7de-4f63-a118-6d4d18bd73b0 Section Learning Objectives By the end of this section, you will be able to do t...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 2
+    },
+    {
+      "name": "Motion Newton's Second Law of Motion Section Learning Objectives By the end of this section",
+      "description": "Newton's Second Law of Motion m54142 Newton's Second Law of Motion 07ba477b-5df7-41a9-bce0-bc44ceab356a Section Learning Objectives By the end of this section, you will be able to do the following: De",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe Newton’s second law, both verbally and mathematically Use Newton’s second law to solve problems Teacher Support The learning objectives in this section will help students master the following standards: (4) Science concepts. The student knows and applies the laws governing motion in a variety..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54142",
+      "content_preview": "Newton's Second Law of Motion m54142 Newton's Second Law of Motion 07ba477b-5df7-41a9-bce0-bc44ceab356a Section Learning Objectives By the end of this section, you will be able to do the following: De...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 3
+    },
+    {
+      "name": "Motion Newton's Third Law of Motion Section Learning Objectives By the end of this section",
+      "description": "Newton's Third Law of Motion m54131 Newton's Third Law of Motion bd5b0c24-7512-4a08-9e41-8596a670a97f Section Learning Objectives By the end of this section, you will be able to do the following: Desc",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe Newton’s third law, both verbally and mathematically Use Newton’s third law to solve problems Teacher Support The learning objectives in this section will help your students master the following standards: (4) Science concepts. The student knows and applies the laws governing motion in a variet..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54131",
+      "content_preview": "Newton's Third Law of Motion m54131 Newton's Third Law of Motion bd5b0c24-7512-4a08-9e41-8596a670a97f Section Learning Objectives By the end of this section, you will be able to do the following: Desc...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 4
+    },
+    {
+      "name": "Rotational Motion",
+      "description": "Angle of Rotation and Angular Velocity m54176 Angle of Rotation and Angular Velocity 541ebd77-2d9a-43ee-9d52-40c4d4261f6f Section Learning Objectives By the end of this section, you will be able to do",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe the angle of rotation and relate it to its linear counterpart Describe angular velocity and relate it to its linear counterpart Solve problems involving angle of rotation and angular velocity Teacher Support The learning objectives in this section will help your students mas..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Linear motion"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m54176",
+      "content_preview": "Angle of Rotation and Angular Velocity m54176 Angle of Rotation and Angular Velocity 541ebd77-2d9a-43ee-9d52-40c4d4261f6f Section Learning Objectives By the end of this section, you will be able to do...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 5
+    },
+    {
+      "name": "Planetary Science",
+      "description": "Kepler's Laws of Planetary Motion m54192 Kepler's Laws of Planetary Motion 7825821d-3e4b-4384-b98b-d44d40c0c41b Section Learning Objectives By the end of this section, you will be able to do the follo",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain Kepler’s three laws of planetary motion Apply Kepler’s laws to calculate characteristics of orbits Teacher Support The learning objectives in this section will help your students master the following standards: (4) Science concepts. The student knows and applies the laws governing moti..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54192",
+      "content_preview": "Kepler's Laws of Planetary Motion m54192 Kepler's Laws of Planetary Motion 7825821d-3e4b-4384-b98b-d44d40c0c41b Section Learning Objectives By the end of this section, you will be able to do the follo...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 6
+    },
+    {
+      "name": "Conservation of momentum verbally and mathematically teacher support the learning objectives in this section will help your students master the following standards: (6) science concepts",
+      "description": "Conservation of Momentum m54202 Conservation of Momentum d22f87ef-eae4-4e96-8335-4c506092eb93 Section Learning Objectives By the end of this section, you will be able to do the following: Describe the",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe the law of conservation of momentum verbally and mathematically Teacher Support The learning objectives in this section will help your students master the following standards: (6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of ene..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Apply conservation of momentum",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54202",
+      "content_preview": "Conservation of Momentum m54202 Conservation of Momentum d22f87ef-eae4-4e96-8335-4c506092eb93 Section Learning Objectives By the end of this section, you will be able to do the following: Describe the...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 7
+    },
+    {
+      "name": "Conservation of momentum teacher support the learning objectives in this section will help your students master the following standards: (6) science concepts",
+      "description": "Elastic and Inelastic Collisions m54209 Elastic and Inelastic Collisions ce41ca24-b8e9-4652-89c5-969fd2780918 Section Learning Objectives By the end of this section, you will be able to do the followi",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Distinguish between elastic and inelastic collisions Solve collision problems by applying the law of conservation of momentum Teacher Support The learning objectives in this section will help your students master the following standards: (6) Science concepts. The student knows that changes occur..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of momentum",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54209",
+      "content_preview": "Elastic and Inelastic Collisions m54209 Elastic and Inelastic Collisions ce41ca24-b8e9-4652-89c5-969fd2780918 Section Learning Objectives By the end of this section, you will be able to do the followi...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 8
+    },
+    {
+      "name": "Conservation of energy in terms of kinetic and potential energy perform calculations related to kinetic and potential energy",
+      "description": "Mechanical Energy and Conservation of Energy m54273 Mechanical Energy and Conservation of Energy b49b2df4-86b3-44a0-8da2-39b1be006cb7 Section Learning Objectives By the end of this section, you will b",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain the law of conservation of energy in terms of kinetic and potential energy Perform calculations related to kinetic and potential energy. Apply the law of conservation of energy Teacher Support The learning objectives in this section will help your students master ..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54273",
+      "content_preview": "Mechanical Energy and Conservation of Energy m54273 Mechanical Energy and Conservation of Energy b49b2df4-86b3-44a0-8da2-39b1be006cb7 Section Learning Objectives By the end of this section, you will b...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 9
+    },
+    {
+      "name": "Relativity",
+      "description": "Introduction m54277 Introduction a19303c8-a34a-42f0-824c-9d2b789de384 Special relativity explains why travel to other star systems, such as these in the Orion Nebula, is unlikely using our current lev",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Electromagnetism",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m54277",
+      "content_preview": "Introduction m54277 Introduction a19303c8-a34a-42f0-824c-9d2b789de384 Special relativity explains why travel to other star systems, such as these in the Orion Nebula, is unlikely using our current lev...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 10
+    },
+    {
+      "name": "Relativity understand the postulates on which the special theory of relativity was based teacher support the learning objectives in this section will help your students master the following",
+      "description": "Postulates of Special Relativity m54280 Postulates of Special Relativity 9b86596d-b640-4477-a517-3108627f5fba Section Learning Objectives By the end of this section, you will be able to do the followi",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe the experiments and scientific problems that led Albert Einstein to develop the special theory of relativity Understand the postulates on which the special theory of relativity was based Teacher Support The learning objectives in this section will help your students master the following..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Electromagnetism",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Design and interpret experimental investigations"
+      ],
+      "source_id": "m54280",
+      "content_preview": "Postulates of Special Relativity m54280 Postulates of Special Relativity 9b86596d-b640-4477-a517-3108627f5fba Section Learning Objectives By the end of this section, you will be able to do the followi...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 11
+    },
+    {
+      "name": "Thermodynamics: Thermal Equilibrium Zeroth Law of Thermodynamics: Thermal Equilibrium Section Learning Objectives By the end of this section",
+      "description": "Zeroth Law of Thermodynamics: Thermal Equilibrium m54302 Zeroth Law of Thermodynamics: Thermal Equilibrium cae3efc8-440a-4f61-a12e-aa4c7c9cc20a Section Learning Objectives By the end of this section, ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain the zeroth law of thermodynamics Teacher Support The learning objectives in this section will help your students master the following standards: (6) Science concepts. The student knows that changes occur within a physical system and applies the laws of c..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54302",
+      "content_preview": "Zeroth Law of Thermodynamics: Thermal Equilibrium m54302 Zeroth Law of Thermodynamics: Thermal Equilibrium cae3efc8-440a-4f61-a12e-aa4c7c9cc20a Section Learning Objectives By the end of this section, ...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 12
+    },
+    {
+      "name": "Thermodynamics: Thermal Energy and Work First law of Thermodynamics: Thermal Energy and Work Section Learning Objectives By the end of this section",
+      "description": "First law of Thermodynamics: Thermal Energy and Work m54305 First law of Thermodynamics: Thermal Energy and Work ab7ddcd9-932d-4ff8-b77a-eb9b24dfef39 Section Learning Objectives By the end of this sec",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe how pressure, volume, and temperature relate to one another and to work, based on the ideal gas law Describe pressure–volume work Describe the first law of thermodynamics verbally and mathematically Solve problems involving the first law of thermo..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54305",
+      "content_preview": "First law of Thermodynamics: Thermal Energy and Work m54305 First law of Thermodynamics: Thermal Energy and Work ab7ddcd9-932d-4ff8-b77a-eb9b24dfef39 Section Learning Objectives By the end of this sec...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 13
+    },
+    {
+      "name": "Thermodynamics: Entropy Second Law of Thermodynamics: Entropy Section Learning Objectives By the end of this section",
+      "description": "Second Law of Thermodynamics: Entropy m54306 Second Law of Thermodynamics: Entropy e5983fe2-b735-4109-a184-3c3e328e624b Section Learning Objectives By the end of this section, you will be able to do t",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe entropy Describe the second law of thermodynamics Solve problems involving the second law of thermodynamics Teacher Support The learning objectives in this section will help your students master the following standards: (6) Science concepts. The student knows that changes occu..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54306",
+      "content_preview": "Second Law of Thermodynamics: Entropy m54306 Second Law of Thermodynamics: Entropy e5983fe2-b735-4109-a184-3c3e328e624b Section Learning Objectives By the end of this section, you will be able to do t...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 14
+    },
+    {
+      "name": "Sound and Acoustics",
+      "description": "Sound Interference and Resonance m54335 Sound Interference and Resonance f7e87217-8219-4ad2-b485-a5ba056170ff Section Learning Objectives By the end of this section, you will be able to do the followi",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe resonance and beats Define fundamental frequency and harmonic series Contrast an openpipe and closedpipe resonator Solve problems involving harmonic series and beat frequency Teacher Support The learning objectives in this section will help your students master the following standards..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Waves"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m54335",
+      "content_preview": "Sound Interference and Resonance m54335 Sound Interference and Resonance f7e87217-8219-4ad2-b485-a5ba056170ff Section Learning Objectives By the end of this section, you will be able to do the followi...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 15
+    },
+    {
+      "name": "Light and Optics",
+      "description": "Introduction m54366 Introduction f37f9ec8-dc9c-4daa-bfab-6a167875a966 Flat, smooth surfaces reflect light to form mirror images.",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Electromagnetism",
+        "Waves"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena"
+      ],
+      "source_id": "m54366",
+      "content_preview": "Introduction m54366 Introduction f37f9ec8-dc9c-4daa-bfab-6a167875a966 Flat, smooth surfaces reflect light to form mirror images. (credit: NASA Goddard Photo and Video, via Flickr) Teacher Support Expl...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 16
+    },
+    {
+      "name": "Momentum",
+      "description": "The Dual Nature of Light m54552 The Dual Nature of Light d5593b8e-c6c6-4224-b682-2b2d56b5b7be Section Learning Objectives By the end of this section, you will be able to do the following: Describe the",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe the Compton effect Calculate the momentum of a photon Explain how photon momentum is used in solar sails Explain the particlewave duality of light Teacher Support The learning objectives in this section will help your students master the following standards:(3) Scientific processes. The student uses c..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena",
+        "Apply conservation of momentum"
+      ],
+      "source_id": "m54552",
+      "content_preview": "The Dual Nature of Light m54552 The Dual Nature of Light d5593b8e-c6c6-4224-b682-2b2d56b5b7be Section Learning Objectives By the end of this section, you will be able to do the following: Describe the...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 17
+    },
+    {
+      "name": "Motion Equations",
+      "description": "Motion Equations for Constant Acceleration in One Dimension m42099 Motion Equations for Constant Acceleration in One Dimension ea2bb23c-4fce-4e9d-a46b-3754125da988 Learning Objectives By the end of th",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Calculate displacement of an object that is not accelerating, given initial position and velocity. Calculate final velocity of an accelerating object, given initial velocity, acceleration, and time. Calculate displacement and final position of an accelerating object,..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Algebra"
+      ],
+      "assessment_methods": [
+        "Problem solving"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42099",
+      "content_preview": "Motion Equations for Constant Acceleration in One Dimension m42099 Motion Equations for Constant Acceleration in One Dimension ea2bb23c-4fce-4e9d-a46b-3754125da988 Learning Objectives By the end of th...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 18
+    },
+    {
+      "name": "Independence of motion to solve projectile motion problems",
+      "description": "Projectile Motion m42042 Projectile Motion 69062f44-56d2-4111-88ff-f599727c4ed1 Learning Objectives By the end of this section, you will be able to: Identify and explain the properties of a projectile",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Identify and explain the properties of a projectile, such as acceleration due to gravity, range, maximum height, and trajectory. Determine the location and velocity of a projectile at different points in its trajectory. Apply the principle of independence of motion to solve projectile motion problems. Projectile motion is the motion of an object thr..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Calculate gravitational forces and orbital motion"
+      ],
+      "source_id": "m42042",
+      "content_preview": "Projectile Motion m42042 Projectile Motion 69062f44-56d2-4111-88ff-f599727c4ed1 Learning Objectives By the end of this section, you will be able to: Identify and explain the properties of a projectile...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 19
+    },
+    {
+      "name": "The forces that cause objects and systems to move",
+      "description": "Development of Force Concept m42069 Development of Force Concept de43ae15-d1fa-4265-98f6-9820ff31a270 Learning Objectives By the end of this section, you will be able to: Understand the definition of ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Understand the definition of force. Dynamics is the study of the forces that cause objects and systems to move. To understand this, we need a working definition of force. Our intuitive definition of force—that is, a push or a pull—is a good place to start. We know that a push or pull has both magnitude and direction (therefore,..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion"
+      ],
+      "source_id": "m42069",
+      "content_preview": "Development of Force Concept m42069 Development of Force Concept de43ae15-d1fa-4265-98f6-9820ff31a270 Learning Objectives By the end of this section, you will be able to: Understand the definition of ...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 20
+    },
+    {
+      "name": "Motion: Inertia Newton’s First Law of Motion: Inertia Learning Objectives By the end of this section",
+      "description": "Newton’s First Law of Motion: Inertia m42130 Newton’s First Law of Motion: Inertia e4084c4d-df8b-43d3-af14-c2ea68d59f92 Learning Objectives By the end of this section, you will be able to: Define mass",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define mass and inertia. Understand Newton's first law of motion. Experience suggests that an object at rest will remain at rest if left alone, and that an object in motion tends to slow down and stop unless some effort is made to keep it moving. What Newton’s first law of motion states, however, is the follow..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42130",
+      "content_preview": "Newton’s First Law of Motion: Inertia m42130 Newton’s First Law of Motion: Inertia e4084c4d-df8b-43d3-af14-c2ea68d59f92 Learning Objectives By the end of this section, you will be able to: Define mass...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 21
+    },
+    {
+      "name": "Motion: Concept of a System Newton’s Second Law of Motion: Concept of a System Learning Objectives By the end of this section",
+      "description": "Newton’s Second Law of Motion: Concept of a System m42073 Newton’s Second Law of Motion: Concept of a System 8afa5bc0-8fb5-4d10-bddc-e626afef65ee Learning Objectives By the end of this section, you wi",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define net force, external force, and system. Understand Newton’s second law of motion. Apply Newton’s second law to determine the weight of an object. Newton’s second law of motion is closely related to Newton’s first law of motion. It mathematically states the cause and effect relat..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42073",
+      "content_preview": "Newton’s Second Law of Motion: Concept of a System m42073 Newton’s Second Law of Motion: Concept of a System 8afa5bc0-8fb5-4d10-bddc-e626afef65ee Learning Objectives By the end of this section, you wi...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 22
+    },
+    {
+      "name": "Motion: Symmetry in Forces Newton’s Third Law of Motion: Symmetry in Forces Learning Objectives By the end of this section",
+      "description": "Newton’s Third Law of Motion: Symmetry in Forces m42074 Newton’s Third Law of Motion: Symmetry in Forces d5510a8b-a06e-4634-a63f-2ec97b293af6 Learning Objectives By the end of this section, you will b",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Understand Newton's third law of motion. Apply Newton's third law to define systems and solve problems of motion. Baseball relief pitcher Mariano Rivera was so highly regarded that during his retirement year, opposing teams conducted farewell presentations when he played at their stadiums..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42074",
+      "content_preview": "Newton’s Third Law of Motion: Symmetry in Forces m42074 Newton’s Third Law of Motion: Symmetry in Forces d5510a8b-a06e-4634-a63f-2ec97b293af6 Learning Objectives By the end of this section, you will b...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 23
+    },
+    {
+      "name": "Gravitation Newton’s Universal Law of Gravitation Learning Objectives By the end of this section",
+      "description": "Newton’s Universal Law of Gravitation m42143 Newton’s Universal Law of Gravitation df3cd28b-1aba-4abc-84d7-54224fbd2a78 Learning Objectives By the end of this section, you will be able to: Explain Ear",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain Earth’s gravitational force. Describe the gravitational effect of the Moon on Earth. Discuss weightlessness in space. Examine the Cavendish experiment What do aching feet, a falling apple, and the orbit of the Moon have in common? Each is caused by the gravitational force. Our feet are strained by supp..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Understand and apply fundamental physical laws",
+        "Design and interpret experimental investigations"
+      ],
+      "source_id": "m42143",
+      "content_preview": "Newton’s Universal Law of Gravitation m42143 Newton’s Universal Law of Gravitation df3cd28b-1aba-4abc-84d7-54224fbd2a78 Learning Objectives By the end of this section, you will be able to: Explain Ear...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 24
+    },
+    {
+      "name": "Conservation of energy can be applied by treating the conservative forces in terms of their potential energies and any nonconservative forces in terms of the work they do",
+      "description": "Nonconservative Forces m42150 Nonconservative Forces 092ffa28-a19e-4bd7-939a-1dfef1ee2a1a Learning Objectives By the end of this section, you will be able to: Define nonconservative forces and explain",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define nonconservative forces and explain how they affect mechanical energy. Show how the principle of conservation of energy can be applied by treating the conservative forces in terms of their potential energies and any nonconservative forces in terms of the work they do. Nonconservative Forces and Friction Forces are either conservative..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Apply conservation of energy principles"
+      ],
+      "source_id": "m42150",
+      "content_preview": "Nonconservative Forces m42150 Nonconservative Forces 092ffa28-a19e-4bd7-939a-1dfef1ee2a1a Learning Objectives By the end of this section, you will be able to: Define nonconservative forces and explain...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 25
+    },
+    {
+      "name": "The conservation of energy",
+      "description": "Conservation of Energy m42151 Conservation of Energy c5adb012-fbab-41a7-b5b2-4644984097fc Learning Objectives By the end of this section, you will be able to: Explain the law of the conservation of en",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the law of the conservation of energy. Describe some of the many forms of energy. Define efficiency of an energy conversion process as the fraction left as useful energy or work, rather than being transformed, for example, into thermal energy. Law of Conservation of EnergyEnergy, as we have noted, is conserved, making it one of the..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42151",
+      "content_preview": "Conservation of Energy m42151 Conservation of Energy c5adb012-fbab-41a7-b5b2-4644984097fc Learning Objectives By the end of this section, you will be able to: Explain the law of the conservation of en...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 26
+    },
+    {
+      "name": "Momentum and the relationship between momentum and force (both vector quantities) applied over a time interval",
+      "description": "Connection for AP® courses m55108 Connection for AP® courses ba6901a3-5398-42a9-83d1-d2ae8bc001fa \"Each rugby player has great momentum, which will affect the outcome of their collisions with each oth",
+      "objectives": [
+        "Master core concepts",
+        "Apply knowledge effectively"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Apply conservation of momentum"
+      ],
+      "source_id": "m55108",
+      "content_preview": "Connection for AP® courses m55108 Connection for AP® courses ba6901a3-5398-42a9-83d1-d2ae8bc001fa \"Each rugby player has great momentum, which will affect the outcome of their collisions with each oth...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 27
+    },
+    {
+      "name": "Motion in terms of momentum",
+      "description": "Linear Momentum and Force m42156 Linear Momentum and Force 93d34b53-54fb-4056-b8a5-ce22ec22321f Learning Objectives By the end of this section, you will be able to: Define linear momentum.",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define linear momentum. Explain the relationship between momentum and force. State Newton’s second law of motion in terms of momentum. Calculate momentum given mass and velocity. Linear Momentum The scientific definition of linear momentum is consistent with most people’s intuitive understanding of momentum: a large, fastmoving obje..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Apply conservation of momentum",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42156",
+      "content_preview": "Linear Momentum and Force m42156 Linear Momentum and Force 93d34b53-54fb-4056-b8a5-ce22ec22321f Learning Objectives By the end of this section, you will be able to: Define linear momentum. Explain the...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 28
+    },
+    {
+      "name": "Conservation of momentum",
+      "description": "Conservation of Momentum m42162 Conservation of Momentum 007123e0-9db4-48bf-bd90-8976ff53a920 Learning Objectives By the end of this section, you will be able to: Describe the principle of conservatio",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe the principle of conservation of momentum. Derive an expression for the conservation of momentum. Explain conservation of momentum with examples. Explain the principle of conservation of momentum as it relates to atomic and subatomic particles. Momentum is an important quantity because it is conserved. Yet it was not conserved..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of momentum"
+      ],
+      "source_id": "m42162",
+      "content_preview": "Conservation of Momentum m42162 Conservation of Momentum 007123e0-9db4-48bf-bd90-8976ff53a920 Learning Objectives By the end of this section, you will be able to: Describe the principle of conservatio...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 29
+    },
+    {
+      "name": "Conservation of Energy",
+      "description": "Rotational Kinetic Energy: Work and Energy Revisited m42180 Rotational Kinetic Energy: Work and Energy Revisited b328b5a2-79ea-4faa-9674-8d62df2f288e Learning Objectives By the end of this section, yo",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Derive the equation for rotational work. Calculate rotational kinetic energy. Demonstrate the Law of Conservation of Energy. In this module, we will learn about work and energy associated with rotational motion. shows a worker using an electric grindstone propelled by a motor. Spa..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Newton's Laws",
+        "Forces",
+        "Algebra"
+      ],
+      "assessment_methods": [
+        "Problem solving"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Solve problems involving electric fields and circuits",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42180",
+      "content_preview": "Rotational Kinetic Energy: Work and Energy Revisited m42180 Rotational Kinetic Energy: Work and Energy Revisited b328b5a2-79ea-4faa-9674-8d62df2f288e Learning Objectives By the end of this section, yo...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 30
+    },
+    {
+      "name": "Conservation of angular momentum",
+      "description": "Angular Momentum and Its Conservation m42182 Angular Momentum and Its Conservation 7de5be93-09e1-4ab6-8282-bec00a3e9f3d Learning Objectives By the end of this section, you will be able to: Understand ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Understand the analogy between angular momentum and linear momentum. Observe the relationship between torque and angular momentum. Apply the law of conservation of angular momentum. Why does Earth keep on spinning? What started it spinning to begin with? And how does an ice skater manage to spin faster and fas..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of momentum",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42182",
+      "content_preview": "Angular Momentum and Its Conservation m42182 Angular Momentum and Its Conservation 7de5be93-09e1-4ab6-8282-bec00a3e9f3d Learning Objectives By the end of this section, you will be able to: Understand ...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 31
+    },
+    {
+      "name": "Fluid Mechanics",
+      "description": "Connection for AP® Courses m55199 Connection for AP® Courses 432b8e5e-2412-41a0-a121-9708dd3f1527 The fluid essential to all life has a beauty of its own.",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m55199",
+      "content_preview": "Connection for AP® Courses m55199 Connection for AP® Courses 432b8e5e-2412-41a0-a121-9708dd3f1527 The fluid essential to all life has a beauty of its own. It also helps support the weight of this swim...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 32
+    },
+    {
+      "name": "Pressure the in human body",
+      "description": "Pressures in the Body m42199 Pressures in the Body 156f6f78-a4e7-454d-a032-9b14f4223cd9 Learning Objectives By the end of this section, you will be able to: Explain the concept of pressure the in huma",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the concept of pressure the in human body. Explain systolic and diastolic blood pressures. Describe pressures in the eye, lungs, spinal column, bladder, and skeletal system. Pressure in the Body Next to taking a person’s temperature and weight, measuring blood pressure is the most common of all medical examinations. Control of high b..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42199",
+      "content_preview": "Pressures in the Body m42199 Pressures in the Body 156f6f78-a4e7-454d-a032-9b14f4223cd9 Learning Objectives By the end of this section, you will be able to: Explain the concept of pressure the in huma...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 33
+    },
+    {
+      "name": "The Ideal Gas Law",
+      "description": "The Ideal Gas Law m42216 The Ideal Gas Law 8f4cb076-9f5f-4a21-966e-079d768f7a98 Learning Objectives By the end of this section, you will be able to: State the ideal gas law in terms of molecules and i",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: State the ideal gas law in terms of molecules and in terms of moles. Use the ideal gas law to calculate pressure change, temperature change, volume change, or the number of molecules or moles in a given volume. Use Avogadro’s number to convert between number of molecules and number of moles. The air inside this hot air balloon flying over Putrajaya,..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42216",
+      "content_preview": "The Ideal Gas Law m42216 The Ideal Gas Law 8f4cb076-9f5f-4a21-966e-079d768f7a98 Learning Objectives By the end of this section, you will be able to: State the ideal gas law in terms of molecules and i...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 34
+    },
+    {
+      "name": "Thermodynamics The First Law of Thermodynamics Learning Objectives By the end of this section",
+      "description": "The First Law of Thermodynamics m42232 The First Law of Thermodynamics fb11b483-b85f-4cda-bec7-4dfd136dba60 Learning Objectives By the end of this section, you will be able to: Define the first law of",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define the first law of thermodynamics. Describe how conservation of energy relates to the first law of thermodynamics. Identify instances of the first law of thermodynamics working in everyday situations, including biological metabolism. Calculate changes in the internal energy of a system, after accounting for heat tran..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42232",
+      "content_preview": "The First Law of Thermodynamics m42232 The First Law of Thermodynamics fb11b483-b85f-4cda-bec7-4dfd136dba60 Learning Objectives By the end of this section, you will be able to: Define the first law of...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 35
+    },
+    {
+      "name": "Thermodynamics and Some Simple Processes The First Law of Thermodynamics and Some Simple Processes Learning Objectives By the end of this section",
+      "description": "The First Law of Thermodynamics and Some Simple Processes m42233 The First Law of Thermodynamics and Some Simple Processes c54309db-5b78-4a77-9e4f-61adc778cb50 Learning Objectives By the end of this s",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe the processes of a simple heat engine. Explain the differences among the simple thermodynamic processes—isobaric, isochoric, isothermal, and adiabatic. Calculate total work done in a cyclical thermodynamic process. Beginning with the Industrial Revolution, human..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42233",
+      "content_preview": "The First Law of Thermodynamics and Some Simple Processes m42233 The First Law of Thermodynamics and Some Simple Processes c54309db-5b78-4a77-9e4f-61adc778cb50 Learning Objectives By the end of this s...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 36
+    },
+    {
+      "name": "Thermodynamics: Heat Engines and Their Efficiency Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency Learning Objectives By the end of this section",
+      "description": "Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency m42234 Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency fd148e61-8909-46dc-be6f-4",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: State the expressions of the second law of thermodynamics. Calculate the efficiency and carbon dioxide emission of a coalfired electricity plant, using second law characteristics. Describe and define the Otto cycle. Th..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Solve problems involving electric fields and circuits",
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42234",
+      "content_preview": "Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency m42234 Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency fd148e61-8909-46dc-be6f-4...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 37
+    },
+    {
+      "name": "Thermodynamics Restated Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated Learning Objectives By the end of this section",
+      "description": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated m42235 Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated 2f8e92ba-f6a4-4fae-9228-64fd959894d8 Learning Obj",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Identify a Carnot cycle. Calculate maximum theoretical efficiency of a nuclear reactor. Explain how dissipative processes affect the ideal Carnot engine. This novelty toy, known as the drinking bird, is an example of Carnot’s engine. It contai..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42235",
+      "content_preview": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated m42235 Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated 2f8e92ba-f6a4-4fae-9228-64fd959894d8 Learning Obj...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 38
+    },
+    {
+      "name": "Thermodynamics: Disorder and the Unavailability of Energy Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy Learning Objectives By the end of this section",
+      "description": "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy m42237 Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy 15a50194-9cf1-484",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes. Explain the expected fate of the universe in entropic terms. Calculate the increasing disorder of a sy..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42237",
+      "content_preview": "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy m42237 Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy 15a50194-9cf1-484...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 39
+    },
+    {
+      "name": "Thermodynamics: The Underlying Explanation Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation Learning Objectives By the end of this section",
+      "description": "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation m42238 Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Identify probabilities in entropy. Analyze statistical probabilities in entropic systems. When you toss a coin a large number of times, heads and tails tend to come up in roughly eq..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Data analysis"
+      ],
+      "learning_objectives": [
+        "Use thermodynamic laws and processes",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42238",
+      "content_preview": "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation m42238 Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 40
+    },
+    {
+      "name": "Motion with respect to stress and deformation",
+      "description": "Hooke’s Law: Stress and Strain Revisited m42240 Hooke’s Law: Stress and Strain Revisited a7c21260-3cf9-49cc-91f7-b631fa0c5d42 Learning Objectives By the end of this section, you will be able to: Expla",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain Newton’s third law of motion with respect to stress and deformation. Describe the restoration of force and displacement. Calculate the energy in Hooke’s Law of deformation, and the stored energy in a spring. When displaced from its vertical equilibrium position, this plastic ruler oscillates back..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Apply conservation of energy principles",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42240",
+      "content_preview": "Hooke’s Law: Stress and Strain Revisited m42240 Hooke’s Law: Stress and Strain Revisited a7c21260-3cf9-49cc-91f7-b631fa0c5d42 Learning Objectives By the end of this section, you will be able to: Expla...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 41
+    },
+    {
+      "name": "Conservation of charge",
+      "description": "Static Electricity and Charge: Conservation of Charge m42300 Static Electricity and Charge: Conservation of Charge bb7dc37b-5a71-4f4d-b83f-524e0f1b3c74 Learning Objectives By the end of this section, ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define electric charge, and describe how the two types of charge interact. Describe three common situations that generate static electricity. State the law of conservation of charge. Borneo amber was mined in Sabah, Malaysia, from shalesandstonemudstone veins. When a piece of ..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Solve problems involving electric fields and circuits",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42300",
+      "content_preview": "Static Electricity and Charge: Conservation of Charge m42300 Static Electricity and Charge: Conservation of Charge bb7dc37b-5a71-4f4d-b83f-524e0f1b3c74 Learning Objectives By the end of this section, ...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 42
+    },
+    {
+      "name": "A field revisited electric field: concept of a field revisited learning objectives by the end of this section",
+      "description": "Electric Field: Concept of a Field Revisited m42310 Electric Field: Concept of a Field Revisited db918015-7645-42cf-8bf7-64d09ad7b838 Learning Objectives By the end of this section, you will be able t",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe a force field and calculate the strength of an electric field due to a point charge. Calculate the force exerted on a test charge by an electric field. Explain the relationship between electrical force (F) on a test charge and electrical field strength (E). Contact forces, such as betwee..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Solve problems involving electric fields and circuits"
+      ],
+      "source_id": "m42310",
+      "content_preview": "Electric Field: Concept of a Field Revisited m42310 Electric Field: Concept of a Field Revisited db918015-7645-42cf-8bf7-64d09ad7b838 Learning Objectives By the end of this section, you will be able t...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 43
+    },
+    {
+      "name": "Resistivity",
+      "description": "Resistance and Resistivity m42346 Resistance and Resistivity a5e2058d-3bf0-4538-9e0d-d72e24a9acfd Learning Objectives By the end of this section, you will be able to: Explain the concept of resistivit",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the concept of resistivity. Use resistivity to calculate the resistance of specified configurations of material. Use the thermal coefficient of resistivity to calculate the change of resistance with temperature. Material and Shape Dependence of Resistance The resistance of an object depends on its shape and the material of ..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42346",
+      "content_preview": "Resistance and Resistivity m42346 Resistance and Resistivity a5e2058d-3bf0-4538-9e0d-d72e24a9acfd Learning Objectives By the end of this section, you will be able to: Explain the concept of resistivit...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 44
+    },
+    {
+      "name": "Induction: Lenz’s Law Faraday’s Law of Induction: Lenz’s Law Learning Objectives By the end of this section",
+      "description": "Faraday’s Law of Induction: Lenz’s Law m42392 Faraday’s Law of Induction: Lenz’s Law c0672c45-1220-426e-b160-c859b879567d Learning Objectives By the end of this section, you will be able to: Calculate",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Calculate emf, current, and magnetic fields using Faraday’s Law. Explain the physical results of Lenz’s Law Faraday’s and Lenz’s Law Faraday’s experiments showed that the emf induced by a change in magnetic flux depends on only a few factors. First, emf is directly proportional to the change in flux ΔΦ. Seco..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Explain magnetic phenomena and electromagnetic induction",
+        "Understand and apply fundamental physical laws",
+        "Design and interpret experimental investigations"
+      ],
+      "source_id": "m42392",
+      "content_preview": "Faraday’s Law of Induction: Lenz’s Law m42392 Faraday’s Law of Induction: Lenz’s Law c0672c45-1220-426e-b160-c859b879567d Learning Objectives By the end of this section, you will be able to: Calculate...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 45
+    },
+    {
+      "name": "Reflection The Law of Reflection Learning Objectives By the end of this section",
+      "description": "The Law of Reflection m42456 The Law of Reflection 60b4727b-829e-4ea7-9238-9140b6a1b20c Learning Objectives By the end of this section, you will be able to: Explain reflection of light from polished a",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain reflection of light from polished and rough surfaces. Whenever we look into a mirror, or squint at sunlight glinting from a lake, we are seeing a reflection. When you look at this page, too, you are seeing light reflected from it. Large telescopes use reflection to form an image of stars and other astronomical objects. The law of ref..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42456",
+      "content_preview": "The Law of Reflection m42456 The Law of Reflection 60b4727b-829e-4ea7-9238-9140b6a1b20c Learning Objectives By the end of this section, you will be able to: Explain reflection of light from polished a...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 46
+    },
+    {
+      "name": "Refraction The Law of Refraction Learning Objectives By the end of this section",
+      "description": "The Law of Refraction m42459 The Law of Refraction 18eef263-8513-4954-bcc8-07aa263f0a50 Learning Objectives By the end of this section, you will be able to: Determine the index of refraction, given th",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Determine the index of refraction, given the speed of light in a medium. It is easy to notice some odd things when looking into a fish tank. For example, you may see the same fish appearing to be in two different places. (See .) This is because light coming from the fish to us changes direction when it leaves the tank, and in this case, it c..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42459",
+      "content_preview": "The Law of Refraction m42459 The Law of Refraction 18eef263-8513-4954-bcc8-07aa263f0a50 Learning Objectives By the end of this section, you will be able to: Determine the index of refraction, given th...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 47
+    },
+    {
+      "name": "Color vision",
+      "description": "Color and Color Vision m42487 Color and Color Vision d42c807d-a9fa-4e3d-83d0-0f7c745b51a0 Learning Objectives By the end of this section, you will be able to: Explain the simple theory of color vision",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the simple theory of color vision. Outline the coloring properties of light sources. Describe the retinex theory of color vision. The gift of vision is made richer by the existence of color. Objects and lights abound with thousands of hues that stimulate our eyes, brains, and emotions. Two basic questions are addressed in this brie..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42487",
+      "content_preview": "Color and Color Vision m42487 Color and Color Vision d42c807d-a9fa-4e3d-83d0-0f7c745b51a0 Learning Objectives By the end of this section, you will be able to: Explain the simple theory of color vision...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 48
+    },
+    {
+      "name": "Surfaces and thin films",
+      "description": "Connection for AP® Courses m55362 Connection for AP® Courses dd022261-4c68-44af-9c2c-abf8bdc8ec2a Katharine Burr Blodgett (1898–1979) was a physicist and chemist who made significant advancements in t",
+      "objectives": [
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Application",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m55362",
+      "content_preview": "Connection for AP® Courses m55362 Connection for AP® Courses dd022261-4c68-44af-9c2c-abf8bdc8ec2a Katharine Burr Blodgett (1898–1979) was a physicist and chemist who made significant advancements in t...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 49
+    },
+    {
+      "name": "Particle-wave duality",
+      "description": "The Particle-Wave Duality Reviewed m42581 The Particle-Wave Duality Reviewed 3b84d6ab-1291-4e6a-8510-7772c0de699e Learning Objectives By the end of this section, you will be able to: Explain the conce",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the concept of particlewave duality, and its scope. Particlewave duality—the fact that all particles have wave properties—is one of the cornerstones of quantum mechanics. We first came across it in the treatment of photons, those particles of EM radiation that exhibit both particle and wave properties, but..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena",
+        "Apply quantum mechanical principles"
+      ],
+      "source_id": "m42581",
+      "content_preview": "The Particle-Wave Duality Reviewed m42581 The Particle-Wave Duality Reviewed 3b84d6ab-1291-4e6a-8510-7772c0de699e Learning Objectives By the end of this section, you will be able to: Explain the conce...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 50
+    },
+    {
+      "name": "The hydrogen atom bohr’s theory of the hydrogen atom learning objectives by the end of this section",
+      "description": "Bohr’s Theory of the Hydrogen Atom m42596 Bohr’s Theory of the Hydrogen Atom 9a2ad24a-bdd0-4aa8-a99c-36ba54ec0f1f Learning Objectives By the end of this section, you will be able to: Describe the myst",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe the mysteries of atomic spectra. Explain Bohr’s theory of the hydrogen atom. Explain Bohr’s planetary model of the atom. Illustrate energy state using the energylevel diagram. Describe the triumphs and limits of Bohr’s theory. The great Danish physicist Niels Bohr (1885–1962) made immediate use of Rutherfo..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Create and use mathematical models"
+      ],
+      "source_id": "m42596",
+      "content_preview": "Bohr’s Theory of the Hydrogen Atom m42596 Bohr’s Theory of the Hydrogen Atom 9a2ad24a-bdd0-4aa8-a99c-36ba54ec0f1f Learning Objectives By the end of this section, you will be able to: Describe the myst...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 51
+    },
+    {
+      "name": "The Pauli Exclusion Principle",
+      "description": "The Pauli Exclusion Principle m42618 The Pauli Exclusion Principle 506a4bfc-5522-4aa6-9b9c-0e7e2325dda0 Learning Objectives By the end of this section, you will be able to: Define the composition of a",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define the composition of an atom along with its electrons, neutrons, and protons. Explain the Pauli exclusion principle and its application to the atom. Specify the shell and subshell symbols and their positions. Define the position of electrons in different shells of an atom. State the position of each element in the period..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42618",
+      "content_preview": "The Pauli Exclusion Principle m42618 The Pauli Exclusion Principle 506a4bfc-5522-4aa6-9b9c-0e7e2325dda0 Learning Objectives By the end of this section, you will be able to: Define the composition of a...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 52
+    },
+    {
+      "name": "A geiger tube",
+      "description": "Radiation Detection and Detectors m42627 Radiation Detection and Detectors 030f371f-df0f-44f0-b7bf-1a8c8733ae0c Learning Objectives By the end of this section, you will be able to: Explain the working",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the working principle of a Geiger tube. Define and discuss radiation detectors. It is well known that ionizing radiation affects us but does not trigger nerve impulses. Newspapers carry stories about unsuspecting victims of radiation poisoning who fall ill with radiation sickness, such as burns and blood count..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42627",
+      "content_preview": "Radiation Detection and Detectors m42627 Radiation Detection and Detectors 030f371f-df0f-44f0-b7bf-1a8c8733ae0c Learning Objectives By the end of this section, you will be able to: Explain the working...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 53
+    },
+    {
+      "name": "Biological Effects",
+      "description": "Biological Effects of Ionizing Radiation m42652 Biological Effects of Ionizing Radiation 1c813e42-c4bd-406c-900e-82faf8875592 Learning Objectives By the end of this section, you will be able to: Defin",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define various units of radiation. Describe RBE. We hear many seemingly contradictory things about the biological effects of ionizing radiation. It can cause cancer, burns, and hair loss, yet it is used to treat and even cure cancer. How do we understand these effects? Once again, there is an underlying ..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42652",
+      "content_preview": "Biological Effects of Ionizing Radiation m42652 Biological Effects of Ionizing Radiation 1c813e42-c4bd-406c-900e-82faf8875592 Learning Objectives By the end of this section, you will be able to: Defin...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 54
+    },
+    {
+      "name": "A cyclotron",
+      "description": "Accelerators Create Matter from Energy m42718 Accelerators Create Matter from Energy 6b2a5350-490f-4468-93d4-e201a6ba4c4a Learning Objectives By the end of this section, you will be able to: State the",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: State the principle of a cyclotron. Explain the principle of a synchrotron. Describe the voltage needed by an accelerator between accelerating tubes. State Fermilab’s accelerator principle. Before looking at all the particles we now know about, let us examine some of the machines that created them. The funda..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles"
+      ],
+      "source_id": "m42718",
+      "content_preview": "Accelerators Create Matter from Energy m42718 Accelerators Create Matter from Energy 6b2a5350-490f-4468-93d4-e201a6ba4c4a Learning Objectives By the end of this section, you will be able to: State the...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 55
+    },
+    {
+      "name": "Refraction in problem solving you may often notice some odd things when looking into a fish tank",
+      "description": "Refraction m58510 Refraction By the end of this section, you will be able to: Describe how rays change direction upon entering a medium Apply the law of refraction in problem solving 426d336a-9fe9-439",
+      "objectives": [
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m58510",
+      "content_preview": "Refraction m58510 Refraction By the end of this section, you will be able to: Describe how rays change direction upon entering a medium Apply the law of refraction in problem solving 426d336a-9fe9-439...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 56
+    },
+    {
+      "name": "Reflection use huygens’s principle to explain the law of refraction use huygens’s principle to explain diffraction so far in this chapter",
+      "description": "Huygens’s Principle m58523 Huygens’s Principle By the end of this section, you will be able to: Describe Huygens’s principle Use Huygens’s principle to explain the law of reflection Use Huygens’s prin",
+      "objectives": [
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena",
+        "Understand and apply fundamental physical laws",
+        "Create and use mathematical models"
+      ],
+      "source_id": "m58523",
+      "content_preview": "Huygens’s Principle m58523 Huygens’s Principle By the end of this section, you will be able to: Describe Huygens’s principle Use Huygens’s principle to explain the law of reflection Use Huygens’s prin...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 57
+    },
+    {
+      "name": "Special relativity addressed",
+      "description": "Invariance of Physical Laws m58556 Invariance of Physical Laws By the end of this section, you will be able to: Describe the theoretical and experimental issues that Einstein’s theory of special relat",
+      "objectives": [
+        "Perform calculations and solve problems",
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Electromagnetism",
+        "Trigonometry",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws",
+        "Design and interpret experimental investigations"
+      ],
+      "source_id": "m58556",
+      "content_preview": "Invariance of Physical Laws m58556 Invariance of Physical Laws By the end of this section, you will be able to: Describe the theoretical and experimental issues that Einstein’s theory of special relat...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 58
+    },
+    {
+      "name": "Special relativity and the concept of a light quantum",
+      "description": "The Compton Effect m58763 The Compton Effect By the end of this section, you will be able to: Describe Compton’s experiment Explain the Compton wavelength shift Describe how experiments with X-rays co",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Electromagnetism",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena",
+        "Apply quantum mechanical principles",
+        "Design and interpret experimental investigations"
+      ],
+      "source_id": "m58763",
+      "content_preview": "The Compton Effect m58763 The Compton Effect By the end of this section, you will be able to: Describe Compton’s experiment Explain the Compton wavelength shift Describe how experiments with X-rays co...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 59
+    },
+    {
+      "name": "The hydrogen atom describe the davisson–germer experiment interpret de broglie’s idea of matter waves and how they account for electron diffraction phenomena compton’s formula e",
+      "description": "De Broglie’s Matter Waves m58765 De Broglie’s Matter Waves By the end of this section, you will be able to: Describe de Broglie’s hypothesis of matter waves Explain how the de Broglie’s hypothesis giv",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Energy",
+        "Oscillations"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Laboratory work",
+        "Data analysis"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena",
+        "Apply quantum mechanical principles",
+        "Apply conservation of momentum"
+      ],
+      "source_id": "m58765",
+      "content_preview": "De Broglie’s Matter Waves m58765 De Broglie’s Matter Waves By the end of this section, you will be able to: Describe de Broglie’s hypothesis of matter waves Explain how the de Broglie’s hypothesis giv...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 60
+    },
+    {
+      "name": "Atomic spectra provides",
+      "description": "Atomic Spectra and X-rays m58590 Atomic Spectra and X-rays By the end of this section, you will be able to: Describe the absorption and emission of radiation in terms of atomic energy levels and energ",
+      "objectives": [
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 5,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Electromagnetism",
+        "Quantum mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Understand wave properties and phenomena",
+        "Apply quantum mechanical principles"
+      ],
+      "source_id": "m58590",
+      "content_preview": "Atomic Spectra and X-rays m58590 Atomic Spectra and X-rays By the end of this section, you will be able to: Describe the absorption and emission of radiation in terms of atomic energy levels and energ...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 61
+    },
+    {
+      "name": "Hybridization quantum mechanics has been extrao",
+      "description": "Types of Molecular Bonds m58592 Types of Molecular Bonds By the end of this section, you will be able to: Distinguish between the different types of molecular bonds Determine the dissociation energy o",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Atomic structure",
+        "Waves",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Apply conservation of energy principles",
+        "Apply quantum mechanical principles"
+      ],
+      "source_id": "m58592",
+      "content_preview": "Types of Molecular Bonds m58592 Types of Molecular Bonds By the end of this section, you will be able to: Distinguish between the different types of molecular bonds Determine the dissociation energy o...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 62
+    },
+    {
+      "name": "Solids Band Theory of Solids By the end of this section",
+      "description": "Band Theory of Solids m58599 Band Theory of Solids By the end of this section, you will be able to: Describe two main approaches to determining the energy levels of an electron in a crystal Explain th",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Create and use mathematical models"
+      ],
+      "source_id": "m58599",
+      "content_preview": "Band Theory of Solids m58599 Band Theory of Solids By the end of this section, you will be able to: Describe two main approaches to determining the energy levels of an electron in a crystal Explain th...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 63
+    },
+    {
+      "name": "Superconductivity determine the critical magnetic field for t = 0 k from magnetic field data calculate the maximum emf or current for a wire to remain superconducting electrical resistance can be considered as a measure of the frictional force in electrical current flow",
+      "description": "Superconductivity m58602 Superconductivity By the end of this section, you will be able to: Describe the main features of a superconductor Describe the BCS theory of superconductivity Determine the cr",
+      "objectives": [
+        "Perform calculations and solve problems",
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Laboratory work"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Solve problems involving electric fields and circuits",
+        "Explain magnetic phenomena and electromagnetic induction"
+      ],
+      "source_id": "m58602",
+      "content_preview": "Superconductivity m58602 Superconductivity By the end of this section, you will be able to: Describe the main features of a superconductor Describe the BCS theory of superconductivity Determine the cr...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 64
+    },
+    {
+      "name": "Particle Conservation Laws",
+      "description": "Particle Conservation Laws m58770 Particle Conservation Laws By the end of this section, you will be able to: Distinguish three conservation laws: baryon number, lepton number, and strangeness Use rul",
+      "objectives": [
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m58770",
+      "content_preview": "Particle Conservation Laws m58770 Particle Conservation Laws By the end of this section, you will be able to: Distinguish three conservation laws: baryon number, lepton number, and strangeness Use rul...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 65
+    },
+    {
+      "name": "Gravitational lensing to explain astronomical phenomena provide evidence of the big bang in terms of cosmic background radiation distinguish between dark matter and dark energy in the previous section",
+      "description": "Evolution of the Early Universe m58776 Evolution of the Early Universe By the end of this section, you will be able to: Describe the evolution of the early universe in terms of the four fundamental fo",
+      "objectives": [
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Apply conservation of energy principles"
+      ],
+      "source_id": "m58776",
+      "content_preview": "Evolution of the Early Universe m58776 Evolution of the Early Universe By the end of this section, you will be able to: Describe the evolution of the early universe in terms of the four fundamental fo...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 66
+    },
+    {
+      "name": "Gravitation and kepler’s laws describe the motions of earth satellites and interplanetary spacecraft as well as the planets",
+      "description": "Motions of Satellites and Spacecraft m59779 Motions of Satellites and Spacecraft b5a9fa3d-f23f-4c86-9ed9-50bfc39fd05b Learning Objectives By the end of this section, you will be able to: Explain how a",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain how an object (such as a satellite) can be put into orbit around Earth Explain how an object (such as a planetary probe) can escape from orbit Newton’s universal law of gravitation and Kepler’s laws describe the motions of Earth satellites and interplanetary spacecraft as well as the planets. Sputnik, th..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m59779",
+      "content_preview": "Motions of Satellites and Spacecraft m59779 Motions of Satellites and Spacecraft b5a9fa3d-f23f-4c86-9ed9-50bfc39fd05b Learning Objectives By the end of this section, you will be able to: Explain how a...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 67
+    },
+    {
+      "name": "Energy levels for t",
+      "description": "Formation of Spectral Lines m59795 Formation of Spectral Lines 9d3d546b-fc92-410c-a9cc-5e084fdb4b62 Learning Objectives By the end of this section, you will be able to: Explain how emission line spect",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain how emission line spectra and absorption line spectra are formed Describe what ions are and how they are formed Explain how spectral lines and ionization levels in a gas can help us determine its temperature We can use Bohr’s model of the atom to understand how spectral lines are formed. The concept of energy levels for t..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Create and use mathematical models"
+      ],
+      "source_id": "m59795",
+      "content_preview": "Formation of Spectral Lines m59795 Formation of Spectral Lines 9d3d546b-fc92-410c-a9cc-5e084fdb4b62 Learning Objectives By the end of this section, you will be able to: Explain how emission line spect...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 68
+    },
+    {
+      "name": "The Doppler Effect",
+      "description": "The Doppler Effect m59799 The Doppler Effect 9d6442f2-71bf-4ed3-9a37-1723bb846e0e Learning Objectives By the end of this section, you will be able to: Explain why the spectral lines of photons we obse",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain why the spectral lines of photons we observe from an object will change as a result of the object’s motion toward or away from us Describe how we can use the Doppler effect to deduce how fast astronomical objects are moving through space The last two sections introduced you to many new concepts, and we hope that through those, you have see..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59799",
+      "content_preview": "The Doppler Effect m59799 The Doppler Effect 9d6442f2-71bf-4ed3-9a37-1723bb846e0e Learning Objectives By the end of this section, you will be able to: Explain why the spectral lines of photons we obse...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 69
+    },
+    {
+      "name": "Plate tectonics describe the difference between rift and subduction zones describe the relationship between fault zones and mountain building explain the various types of volcanic activity occurring on earth let us now examine our planet’s outer layers in more detail",
+      "description": "Earth’s Crust m59826 Earth’s Crust 06448fca-ae6c-4146-a3e1-b13d8c765c63 Learning Objectives By the end of this section, you will be able to: Denote the primary types of rock that constitute Earth’s cr",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Denote the primary types of rock that constitute Earth’s crust Explain the theory of plate tectonics Describe the difference between rift and subduction zones Describe the relationship between fault zones and mountain building Explain the various types of volcanic activity occurring on Earth Let us now examine our planet’s outer layers in more detail. Earth..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59826",
+      "content_preview": "Earth’s Crust m59826 Earth’s Crust 06448fca-ae6c-4146-a3e1-b13d8c765c63 Learning Objectives By the end of this section, you will be able to: Denote the primary types of rock that constitute Earth’s cr...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 70
+    },
+    {
+      "name": "How the moon formed ideas for the origin of the moon it is characteristic of modern science to ask how things originated",
+      "description": "The Origin of the Moon m59834 The Origin of the Moon f11291b8-079b-49fa-a302-4139c51133f9 Learning Objectives By the end of this section, you will be able to: Describe the top three early hypotheses o",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe the top three early hypotheses of the formation of the Moon Summarize the current “giant impact” concept of how the Moon formed Ideas for the Origin of the Moon It is characteristic of modern science to ask how things originated. Understanding the origin of the Moon has proven to be challenging for planetary scientists, however. P..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59834",
+      "content_preview": "The Origin of the Moon m59834 The Origin of the Moon f11291b8-079b-49fa-a302-4139c51133f9 Learning Objectives By the end of this section, you will be able to: Describe the top three early hypotheses o...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 71
+    },
+    {
+      "name": "Craters on venus tells us about the age of its surface compare tectonic activity and volcanoes on venus with those of earth explain why the surface of venus is inhospitable to human life since venus has about the same size and composition as earth",
+      "description": "The Geology of Venus m59838 The Geology of Venus e10c1a16-d06c-4057-8813-29ae446efe94 Learning Objectives By the end of this section, you will be able to: Describe the general features of the surface ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe the general features of the surface of Venus Explain what the study of craters on Venus tells us about the age of its surface Compare tectonic activity and volcanoes on Venus with those of Earth Explain why the surface of Venus is inhospitable to human life Since Venus has about the same size and composition as Earth, we might expect ..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59838",
+      "content_preview": "The Geology of Venus m59838 The Geology of Venus e10c1a16-d06c-4057-8813-29ae446efe94 Learning Objectives By the end of this section, you will be able to: Describe the general features of the surface ...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 72
+    },
+    {
+      "name": "Meteorites informs our understanding of the age of the solar system",
+      "description": "Meteorites: Stones from Heaven m59872 Meteorites: Stones from Heaven b8fcd786-2d2e-415f-8ce8-a61442d8e6b9 Learning Objectives By the end of this section, you will be able to: Explain the origin of met",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the origin of meteorites and the difference between a meteor and a meteorite Describe how most meteorites have been found Explain how primitive stone meteorites are significantly different from other types Explain how the study of meteorites informs our understanding of the age of the solar system. Any fragment of i..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59872",
+      "content_preview": "Meteorites: Stones from Heaven m59872 Meteorites: Stones from Heaven b8fcd786-2d2e-415f-8ce8-a61442d8e6b9 Learning Objectives By the end of this section, you will be able to: Explain the origin of met...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 73
+    },
+    {
+      "name": "Solar system formation summarize the physical and chemical changes during the solar nebula stage of solar system formation explain the formation process of the terrestrial and giant planets describe the main events of the further evolution of",
+      "description": "Formation of the Solar System m59873 Formation of the Solar System d3960789-d139-4c88-870e-982093388aa6 Learning Objectives By the end of this section, you will be able to: Describe the motion, chemic",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe the motion, chemical, and age constraints that must be met by any theory of solar system formation Summarize the physical and chemical changes during the solar nebula stage of solar system formation Explain the formation process of the terrestrial and giant planets Describe the main events of the further evolution of..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59873",
+      "content_preview": "Formation of the Solar System m59873 Formation of the Solar System d3960789-d139-4c88-870e-982093388aa6 Learning Objectives By the end of this section, you will be able to: Describe the motion, chemic...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 74
+    },
+    {
+      "name": "Conservation of energy explain ways that energy can be transformed energy is a challenging concept to grasp because it exists in so many different forms that it defies any single simple explanation",
+      "description": "Sources of Sunshine: Thermal and Gravitational Energy m59895 Sources of Sunshine: Thermal and Gravitational Energy 0ac646fb-3bf3-498e-a911-c80b917508a4 Learning Objectives By the end of this section, ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Identify different forms of energy Understand the law of conservation of energy Explain ways that energy can be transformed Energy is a challenging concept to grasp because it exists in so many different forms that it defies any single simple explanation. In many ways, comprehen..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m59895",
+      "content_preview": "Sources of Sunshine: Thermal and Gravitational Energy m59895 Sources of Sunshine: Thermal and Gravitational Energy 0ac646fb-3bf3-498e-a911-c80b917508a4 Learning Objectives By the end of this section, ...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 75
+    },
+    {
+      "name": "Relativity Mass",
+      "description": "Mass, Energy, and the Theory of Relativity m59886 Mass, Energy, and the Theory of Relativity 48c2dc44-40da-465e-b524-0adefbbc1490 Learning Objectives By the end of this section, you will be able to: E",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain how matter can be converted into energy Describe the particles that make up atoms Describe the nucleus of an atom Understand the nuclear forces that hold atoms together Trace the nuclear reactions in the solar interior As we have seen, energy cannot be created or destroyed, but only converted..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Electromagnetism",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Apply conservation of energy principles"
+      ],
+      "source_id": "m59886",
+      "content_preview": "Mass, Energy, and the Theory of Relativity m59886 Mass, Energy, and the Theory of Relativity 48c2dc44-40da-465e-b524-0adefbbc1490 Learning Objectives By the end of this section, you will be able to: E...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 76
+    },
+    {
+      "name": "Triangulating distances to distant objects",
+      "description": "Surveying the Stars m59905 Surveying the Stars e7866b9e-59bd-4e63-a285-58320ddaf41c Learning Objectives By the end of this section, you will be able to: Understand the concept of triangulating distanc",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Understand the concept of triangulating distances to distant objects, including stars Explain why spacebased satellites deliver more precise distances than groundbased methods Discuss astronomers’ efforts to determine the distance of the stars closest to the Sun It is an enormous step to go from the planets to the stars. For example, our Voyag..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59905",
+      "content_preview": "Surveying the Stars m59905 Surveying the Stars e7866b9e-59bd-4e63-a285-58320ddaf41c Learning Objectives By the end of this section, you will be able to: Understand the concept of triangulating distanc...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 77
+    },
+    {
+      "name": "The universe let’s briefly review the key reasons that measuring distances to the stars is such a struggle",
+      "description": "Variable Stars: One Key to Cosmic Distances m59906 Variable Stars: One Key to Cosmic Distances bdd59622-7b70-46bd-948f-3651c94d230b Learning Objectives By the end of this section, you will be able to:",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe how some stars vary their light output and why such stars are important Explain the importance of pulsating variable stars, such as cepheids and RR Lyraetype stars, to our study of the universe Let’s briefly review the key reasons that measuring distances to the stars is such a struggle. ..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Algebra"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59906",
+      "content_preview": "Variable Stars: One Key to Cosmic Distances m59906 Variable Stars: One Key to Cosmic Distances bdd59622-7b70-46bd-948f-3651c94d230b Learning Objectives By the end of this section, you will be able to:...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 78
+    },
+    {
+      "name": "Relativity recognize that one’s experiences of gravity and acceleration are interchangeable and indistinguishable distinguish between newtonian ideas of gravity and einsteinian ideas of gravity recognize why the general theory of relativity is necessary for understandin",
+      "description": "Introducing General Relativity m59939 Introducing General Relativity 87febba0-f4df-4096-b9f6-a13ed65deb0f Learning Objectives By the end of this section, you will be able to: Discuss some of the key i",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Discuss some of the key ideas of the general theory of relativity Recognize that one’s experiences of gravity and acceleration are interchangeable and indistinguishable Distinguish between Newtonian ideas of gravity and Einsteinian ideas of gravity Recognize why the general theory of relativity is necessary for understandin..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Electromagnetism",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Calculate gravitational forces and orbital motion"
+      ],
+      "source_id": "m59939",
+      "content_preview": "Introducing General Relativity m59939 Introducing General Relativity 87febba0-f4df-4096-b9f6-a13ed65deb0f Learning Objectives By the end of this section, you will be able to: Discuss some of the key i...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 79
+    },
+    {
+      "name": "The gravitational force between two massive objects and einstein’s concept of warped spacetime are different explanations for the same observed accelerations of one massive object in the presence of another m",
+      "description": "Spacetime and Gravity m59940 Spacetime and Gravity 3ce9d47d-1953-4522-ad16-0a8c17b4cf92 Learning Objectives By the end of this section, you will be able to: Describe Einstein’s view of gravity as the ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe Einstein’s view of gravity as the warping of spacetime in the presence of massive objects Understand that Newton’s concept of the gravitational force between two massive objects and Einstein’s concept of warped spacetime are different explanations for the same observed accelerations of one massive object in the presence of another m..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Calculate gravitational forces and orbital motion"
+      ],
+      "source_id": "m59940",
+      "content_preview": "Spacetime and Gravity m59940 Spacetime and Gravity 3ce9d47d-1953-4522-ad16-0a8c17b4cf92 Learning Objectives By the end of this section, you will be able to: Describe Einstein’s view of gravity as the ...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 80
+    },
+    {
+      "name": "Warped spacetime near a black hole to track what happens to any object that might fall into a black hole recognize why the concept of a singularity—with i",
+      "description": "Black Holes m59943 Black Holes 366e559d-50aa-4678-b615-bc6f4f06e5cc Learning Objectives By the end of this section, you will be able to: Explain the event horizon surrounding a black hole Discuss why ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the event horizon surrounding a black hole Discuss why the popular notion of black holes as great sucking monsters that can ingest material at great distances from them is erroneous Use the concept of warped spacetime near a black hole to track what happens to any object that might fall into a black hole Recognize why the concept of a singularity—with i..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59943",
+      "content_preview": "Black Holes m59943 Black Holes 366e559d-50aa-4678-b615-bc6f4f06e5cc Learning Objectives By the end of this section, you will be able to: Explain the event horizon surrounding a black hole Discuss why ...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 81
+    },
+    {
+      "name": "Newton's Laws",
+      "description": "Introduction m54144 Introduction 438c5976-3406-42c5-a216-fe7463df48ad Newton’s laws of motion describe the motion of the dolphin’s path.",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Calculate gravitational forces and orbital motion",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54144",
+      "content_preview": "Introduction m54144 Introduction 438c5976-3406-42c5-a216-fe7463df48ad Newton’s laws of motion describe the motion of the dolphin’s path. (Credit: Jin Jang) Teacher Support Before students begin this c...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 82
+    },
+    {
+      "name": "Dynamics",
+      "description": "Force m54135 Force 47f50c14-db77-440c-a178-464af55ae244 Section Learning Objectives By the end of this section, you will be able to do the following: Differentiate between force, net force, and dynami",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Differentiate between force, net force, and dynamics Draw a freebody diagram Teacher Support The learning objectives in this section will help your students master the following standards: (4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to: (C) analyze and describe a..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Kinematics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Data analysis"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54135",
+      "content_preview": "Force m54135 Force 47f50c14-db77-440c-a178-464af55ae244 Section Learning Objectives By the end of this section, you will be able to do the following: Differentiate between force, net force, and dynami...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 83
+    },
+    {
+      "name": "Oscillations",
+      "description": "Simple Harmonic Motion m54154 Simple Harmonic Motion 152f919d-2391-4bf3-85ae-432e63f80468 Section Learning Objectives By the end of this section, you will be able to do the following: Describe Hooke’s",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe Hooke’s law and Simple Harmonic Motion Describe periodic motion, oscillations, amplitude, frequency, and period Solve problems in simple harmonic motion involving springs and pendulums Teacher Support The learning objectives in this section will help your students master the following standards: (7) Scienc..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Energy",
+        "Forces"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Model oscillatory motion and simple harmonic motion",
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54154",
+      "content_preview": "Simple Harmonic Motion m54154 Simple Harmonic Motion 152f919d-2391-4bf3-85ae-432e63f80468 Section Learning Objectives By the end of this section, you will be able to do the following: Describe Hooke’s...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 84
+    },
+    {
+      "name": "Forces",
+      "description": "Uniform Circular Motion m54181 Uniform Circular Motion ebda9705-aec8-45ec-8ee6-b4f52e9664c0 Section Learning Objectives By the end of this section, you will be able to do the following: Describe centr",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe centripetal acceleration and relate it to linear acceleration Describe centripetal force and relate it to linear force Solve problems involving centripetal acceleration and centripetal force Teacher Support The learning objectives in this section will help your students master the following standards: (4..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion"
+      ],
+      "source_id": "m54181",
+      "content_preview": "Uniform Circular Motion m54181 Uniform Circular Motion ebda9705-aec8-45ec-8ee6-b4f52e9664c0 Section Learning Objectives By the end of this section, you will be able to do the following: Describe centr...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 85
+    },
+    {
+      "name": "Kinematics",
+      "description": "Rotational Motion m54180 Rotational Motion 0807ecd4-619a-4540-b58a-f38b43b09fff Section Learning Objectives By the end of this section, you will be able to do the following: Describe rotational kinema",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe rotational kinematic variables and equations and relate them to their linear counterparts Describe torque and lever arm Solve problems involving torque and rotational kinematics Teacher Support The learning objectives in this section will help your students master the following standards: (4) Science concepts. The s..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Algebra"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Solve motion problems using kinematic equations"
+      ],
+      "source_id": "m54180",
+      "content_preview": "Rotational Motion m54180 Rotational Motion 0807ecd4-619a-4540-b58a-f38b43b09fff Section Learning Objectives By the end of this section, you will be able to do the following: Describe rotational kinema...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 86
+    },
+    {
+      "name": "Universal Gravitation and Einstein's Theory of General Relativity Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity Section Learning Objectives By the end of this section",
+      "description": "Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity m54189 Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity cef1f320-df42-4181-af2b-bd17b",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain Newton’s law of universal gravitation and compare it to Einstein’s theory of general relativity Perform calculations using Newton’s law of universal gravitation Teacher Support The learning ..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Electromagnetism",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54189",
+      "content_preview": "Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity m54189 Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity cef1f320-df42-4181-af2b-bd17b...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 87
+    },
+    {
+      "name": "Energy and Work",
+      "description": "Introduction m54268 Introduction 2c3118ee-1433-437d-89f2-be43c5855452 Teacher Support Physics learning objectives come from 112.39 (c) Knowledge and Skills People on a roller coaster experience thrill",
+      "objectives": [
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Forces",
+        "Newton's Laws"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply conservation of energy principles"
+      ],
+      "source_id": "m54268",
+      "content_preview": "Introduction m54268 Introduction 2c3118ee-1433-437d-89f2-be43c5855452 Teacher Support Physics learning objectives come from 112.39 (c) Knowledge and Skills People on a roller coaster experience thrill...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 88
+    },
+    {
+      "name": "Waves",
+      "description": "Introduction m54312 Introduction 528952d9-881d-4abf-b3bc-d2d0210bf5f1 Waves in the ocean behave similarly to all other types of waves.",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Energy",
+        "Oscillations"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena",
+        "Explain magnetic phenomena and electromagnetic induction"
+      ],
+      "source_id": "m54312",
+      "content_preview": "Introduction m54312 Introduction 528952d9-881d-4abf-b3bc-d2d0210bf5f1 Waves in the ocean behave similarly to all other types of waves. (Steve Jurveston, Flickr) Tell students that, in this chapter, th...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 89
+    },
+    {
+      "name": "Electricity",
+      "description": "Introduction m54417 Introduction 733779ab-85cb-4bdc-b87d-8f217765027c This child’s hair contains an imbalance of electrical charge (commonly called static electricity), which causes it to stand on end",
+      "objectives": [
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Basic mathematics"
+      ],
+      "assessment_methods": [
+        "Application"
+      ],
+      "learning_objectives": [
+        "Solve problems involving electric fields and circuits"
+      ],
+      "source_id": "m54417",
+      "content_preview": "Introduction m54417 Introduction 733779ab-85cb-4bdc-b87d-8f217765027c This child’s hair contains an imbalance of electrical charge (commonly called static electricity), which causes it to stand on end...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 90
+    },
+    {
+      "name": "Nuclear Physics",
+      "description": "Nuclear Fission and Fusion m54574 Nuclear Fission and Fusion f7545343-8845-47fd-9f10-aaaa8283929d Section Learning Objectives By the end of this section, you will be able to do the following: Explain ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain nuclear fission Explain nuclear fusion Describe how the processes of fission and fusion work in nuclear weapons and in generating nuclear power Teacher Support The learning objectives in this section will help your students master the following standards: (8) Science concepts. The student knows simp..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "core",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Atomic physics",
+        "Quantum mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m54574",
+      "content_preview": "Nuclear Fission and Fusion m54574 Nuclear Fission and Fusion f7545343-8845-47fd-9f10-aaaa8283929d Section Learning Objectives By the end of this section, you will be able to do the following: Explain ...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 91
+    },
+    {
+      "name": "Gravity and Gravitation",
+      "description": "Falling Objects m42102 Falling Objects 9e486db8-120e-4507-b265-e5248007faba Learning Objectives By the end of this section, you will be able to: Describe the effects of gravity on objects in motion.",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Describe the effects of gravity on objects in motion. Describe the motion of objects that are in free fall. Calculate the position and velocity of objects in free fall. Falling objects form an interesting class of motion problems. For example, we can estimate the depth of a vertical mine shaft by dropping a rock into it and listening for the rock to hit..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Calculate gravitational forces and orbital motion"
+      ],
+      "source_id": "m42102",
+      "content_preview": "Falling Objects m42102 Falling Objects 9e486db8-120e-4507-b265-e5248007faba Learning Objectives By the end of this section, you will be able to: Describe the effects of gravity on objects in motion. D...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 92
+    },
+    {
+      "name": "Motion",
+      "description": "Introduction to Rocket Propulsion m42166 Introduction to Rocket Propulsion 5ea664f4-f320-4873-93c7-0dc838e9c9ae Learning Objectives By the end of this section, you will be able to: State Newton’s thir",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: State Newton’s third law of motion. Explain the principle involved in propulsion of rockets and jet engines. Derive an expression for the acceleration of the rocket and discuss the factors that affect the acceleration. Describe the function of a space shuttle. Rockets range in size from fireworks so small that ordinar..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "core",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m42166",
+      "content_preview": "Introduction to Rocket Propulsion m42166 Introduction to Rocket Propulsion 5ea664f4-f320-4873-93c7-0dc838e9c9ae Learning Objectives By the end of this section, you will be able to: State Newton’s thir...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 93
+    },
+    {
+      "name": "Reflection and the equations for curved mirrors teacher support the learning objectives",
+      "description": "Reflection m54357 Reflection 558c0399-176a-49a9-a4f1-d3b6a16175d6 Section Learning Objectives By the end of this section, you will be able to do the following: Explain reflection from mirrors, describ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain reflection from mirrors, describe image formation as a consequence of reflection from mirrors, apply ray diagrams to predict and interpret image and object locations, and describe applications of mirrors Perform calculations based on the law of reflection and the equations for curved mirrors Teacher Support The learning objectives..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Algebra"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application",
+        "Data analysis"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54357",
+      "content_preview": "Reflection m54357 Reflection 558c0399-176a-49a9-a4f1-d3b6a16175d6 Section Learning Objectives By the end of this section, you will be able to do the following: Explain reflection from mirrors, describ...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 94
+    },
+    {
+      "name": "Refraction",
+      "description": "Refraction m54365 Refraction cce1289f-8a3c-4353-9036-2180e34b55b0 Section Learning Objectives By the end of this section, you will be able to do the following: Explain refraction at media boundaries, ",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Explain refraction at media boundaries, predict the path of light after passing through a boundary (Snell’s law), describe the index of refraction of materials, explain total internal reflection, and describe applications of refraction and total internal reflection Perform calculations based on the law of refraction, Snell’s law, and the ..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54365",
+      "content_preview": "Refraction m54365 Refraction cce1289f-8a3c-4353-9036-2180e34b55b0 Section Learning Objectives By the end of this section, you will be able to do the following: Explain refraction at media boundaries, ...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 95
+    },
+    {
+      "name": "Cosmology",
+      "description": "Connection for AP® Courses m54763 Connection for AP® Courses ea90794e-0043-4160-a494-3f370885c7e3 Galaxies are as immense as atoms are small.",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Relativity",
+        "Stellar physics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54763",
+      "content_preview": "Connection for AP® Courses m54763 Connection for AP® Courses ea90794e-0043-4160-a494-3f370885c7e3 Galaxies are as immense as atoms are small. Yet the same laws of physics describe both, and all the re...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 96
+    },
+    {
+      "name": "Electrostatics has proven useful in many areas",
+      "description": "Applications of Electrostatics m42329 Applications of Electrostatics 56ae5355-400b-4330-8552-980b0744e2ca Learning Objectives By the end of this section, you will be able to: The study of electrostati",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: The study of electrostatics has proven useful in many areas. This module covers just a few of the many applications of electrostatics. Name several realworld applications of the study of electrostatics. The Van de Graaff Generator Van de Graaff generators (or Van de Graaffs) are not only spectacular devices used to demonst..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42329",
+      "content_preview": "Applications of Electrostatics m42329 Applications of Electrostatics 56ae5355-400b-4330-8552-980b0744e2ca Learning Objectives By the end of this section, you will be able to: The study of electrostati...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 97
+    },
+    {
+      "name": "Radiotherapy and list typical doses for cancer therapy",
+      "description": "Therapeutic Uses of Ionizing Radiation m42654 Therapeutic Uses of Ionizing Radiation 96ed6849-22bb-4178-a008-6c09bd197dc6 Learning Objectives By the end of this section, you will be able to: Explain t",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the concept of radiotherapy and list typical doses for cancer therapy. Therapeutic applications of ionizing radiation, called radiation therapy or radiotherapy, have existed since the discovery of xrays and nuclear radioactivity. Today, radiotherapy is used almost exclusively for cancer therapy, whe..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42654",
+      "content_preview": "Therapeutic Uses of Ionizing Radiation m42654 Therapeutic Uses of Ionizing Radiation 96ed6849-22bb-4178-a008-6c09bd197dc6 Learning Objectives By the end of this section, you will be able to: Explain t...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 98
+    },
+    {
+      "name": "Heisenberg Uncertainty Principle Revisited",
+      "description": "The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited m42669 The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited 838d9f2b-d65b-44a7-b2d1-7897af0bc74f Learning Objec",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Define Yukawa particle. State the Heisenberg uncertainty principle. Describe pion. Estimate the mass of a pion. Explain meson. Particle physics as we know it today began with the ideas of Hideki Yukawa in 1935. Physicists had long been concerned..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m42669",
+      "content_preview": "The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited m42669 The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited 838d9f2b-d65b-44a7-b2d1-7897af0bc74f Learning Objec...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 99
+    },
+    {
+      "name": "Galactic Astronomy",
+      "description": "Connection for AP® Courses m54824 Connection for AP® Courses 94ce2252-3ea7-441e-ab50-b7414b56e185 This galaxy is ejecting huge jets of matter, powered by an immensely massive black hole at its center.",
+      "objectives": [
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m54824",
+      "content_preview": "Connection for AP® Courses m54824 Connection for AP® Courses 94ce2252-3ea7-441e-ab50-b7414b56e185 This galaxy is ejecting huge jets of matter, powered by an immensely massive black hole at its center....",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 100
+    },
+    {
+      "name": "Reflection The Law of Reflection By the end of this section",
+      "description": "The Law of Reflection m58509 The Law of Reflection By the end of this section, you will be able to: Explain the reflection of light from polished and rough surfaces Describe the principle and applicat",
+      "objectives": [
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m58509",
+      "content_preview": "The Law of Reflection m58509 The Law of Reflection By the end of this section, you will be able to: Explain the reflection of light from polished and rough surfaces Describe the principle and applicat...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 101
+    },
+    {
+      "name": "Diffusion and drift current (zero applied voltage) explain the response of a p-n junction to a forward and reverse bias voltage describe the function of a transistor in an electric circuit use the concept of a p-n junction to explain its applications in audio amplifiers and computers 62a6715c-39f4-44d6-b99d-",
+      "description": "Semiconductor Devices m58601 Semiconductor Devices By the end of this section, you will be able to: Describe what occurs when n- and p-type materials are joined together using the concept of diffusion",
+      "objectives": [
+        "Perform calculations and solve problems",
+        "Understand fundamental concepts",
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": true,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Solve problems involving electric fields and circuits"
+      ],
+      "source_id": "m58601",
+      "content_preview": "Semiconductor Devices m58601 Semiconductor Devices By the end of this section, you will be able to: Describe what occurs when n- and p-type materials are joined together using the concept of diffusion...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 102
+    },
+    {
+      "name": "Fundamental particles and their interactions i",
+      "description": "Introduction to Particle Physics m58768 Introduction to Particle Physics By the end of this section, you will be able to: Describe the four fundamental forces and what particles participate in them Id",
+      "objectives": [
+        "Understand fundamental concepts"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion"
+      ],
+      "source_id": "m58768",
+      "content_preview": "Introduction to Particle Physics m58768 Introduction to Particle Physics By the end of this section, you will be able to: Describe the four fundamental forces and what particles participate in them Id...",
+      "source_book": "College Physics for AP® Courses 2e",
+      "domain": "general_physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 103
+    },
+    {
+      "name": "The objects that lie beyond our planet earth and the processes by which these objects interact with one another",
+      "description": "The Nature of Astronomy m59747 The Nature of Astronomy 7f11b6c9-3774-45f2-89e7-65c0196f6c29 Astronomy is defined as the study of the objects that lie beyond our planet Earth and the processes by which",
+      "objectives": [
+        "Master core concepts",
+        "Apply knowledge effectively"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59747",
+      "content_preview": "The Nature of Astronomy m59747 The Nature of Astronomy 7f11b6c9-3774-45f2-89e7-65c0196f6c29 Astronomy is defined as the study of the objects that lie beyond our planet Earth and the processes by which...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 104
+    },
+    {
+      "name": "The heavens was not an abst",
+      "description": "Astrology and Astronomy m59772 Astrology and Astronomy 3e7849d9-bda2-4f03-8517-953f63735a69 Learning Objectives By the end of this section, you will be able to: Explain the origins of astrology Explai",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain the origins of astrology Explain what a horoscope is Summarize the arguments that invalidate astrology as a scientific practice Many ancient cultures regarded the planets and stars as representatives or symbols of the gods or other supernatural forces that controlled their lives. For them, the study of the heavens was not an abst..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion"
+      ],
+      "source_id": "m59772",
+      "content_preview": "Astrology and Astronomy m59772 Astrology and Astronomy 3e7849d9-bda2-4f03-8517-953f63735a69 Learning Objectives By the end of this section, you will be able to: Explain the origins of astrology Explai...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 105
+    },
+    {
+      "name": "Motion and forces explain how galileo’s discoveries tilted the balance of evidence in favor of th",
+      "description": "The Birth of Modern Astronomy m59765 The Birth of Modern Astronomy 0fa12f98-6991-469f-9e81-e518d4b1507b Learning Objectives By the end of this section, you will be able to: Explain how Copernicus deve",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Explain how Copernicus developed the heliocentric model of the solar system Explain the Copernican model of planetary motion and describe evidence or arguments in favor of it Describe Galileo’s discoveries concerning the study of motion and forces Explain how Galileo’s discoveries tilted the balance of evidence in favor of th..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Analyze forces and their effects on motion",
+        "Create and use mathematical models"
+      ],
+      "source_id": "m59765",
+      "content_preview": "The Birth of Modern Astronomy m59765 The Birth of Modern Astronomy 0fa12f98-6991-469f-9e81-e518d4b1507b Learning Objectives By the end of this section, you will be able to: Explain how Copernicus deve...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 106
+    },
+    {
+      "name": "Stellar Evolution The H–R Diagram and the Study of Stellar Evolution Learning Objectives By the end of this section",
+      "description": "The H–R Diagram and the Study of Stellar Evolution m59918 The H–R Diagram and the Study of Stellar Evolution c80b855e-bbb9-49a4-89ca-cceaa1621efd Learning Objectives By the end of this section, you wi",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to: Determine the age of a protostar using an H–R diagram and the protostar’s luminosity and temperature Explain the interplay between gravity and pressure, and how the contracting protostar changes its position in the H–R diagram as a result One of the best ways to summarize all of these..."
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 4,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Gravity",
+        "Thermodynamics",
+        "Nuclear physics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Calculate gravitational forces and orbital motion"
+      ],
+      "source_id": "m59918",
+      "content_preview": "The H–R Diagram and the Study of Stellar Evolution m59918 The H–R Diagram and the Study of Stellar Evolution c80b855e-bbb9-49a4-89ca-cceaa1621efd Learning Objectives By the end of this section, you wi...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 107
+    },
+    {
+      "name": "Atomic Physics",
+      "description": "Introduction m54082 Introduction 40fee541-6064-4639-be4a-e68a6fefb734 Teacher Support Before students begin this chapter, it is useful to review the following concepts: The definition of the atom and ",
+      "objectives": [
+        "Apply principles to real-world situations"
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "elective",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Electromagnetism",
+        "Quantum mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand and apply fundamental physical laws"
+      ],
+      "source_id": "m54082",
+      "content_preview": "Introduction m54082 Introduction 40fee541-6064-4639-be4a-e68a6fefb734 Teacher Support Before students begin this chapter, it is useful to review the following concepts: The definition of the atom and ...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 108
+    },
+    {
+      "name": "Quantum Mechanics",
+      "description": "Physics: Definitions and Applications m54057 Physics: Definitions and Applications 5f0710fe-1028-4ac4-b8fd-b0a6c792c642 Section Learning Objectives By the end of this section, you will be able to do t",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Describe the definition, aims, and branches of physics Describe and distinguish classical physics from modern physics and describe the importance of relativity, quantum mechanics, and relativistic quantum mechanics in modern physics Describe how aspects of physics are used in other sci..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Atomic structure",
+        "Waves",
+        "Classical mechanics"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Apply quantum mechanical principles"
+      ],
+      "source_id": "m54057",
+      "content_preview": "Physics: Definitions and Applications m54057 Physics: Definitions and Applications 5f0710fe-1028-4ac4-b8fd-b0a6c792c642 Section Learning Objectives By the end of this section, you will be able to do t...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 109
+    },
+    {
+      "name": "Magnetism",
+      "description": "The Electromagnetic Spectrum m54342 The Electromagnetic Spectrum 7d996634-c209-41d3-a183-18f0081f9388 Section Learning Objectives By the end of this section, you will be able to do the following: Defi",
+      "objectives": [
+        "Learning Objectives By the end of this section, you will be able to do the following: Define the electromagnetic spectrum, and describe it in terms of frequencies and wavelengths Describe and explain the differences and similarities of each section of the electromagnetic spectrum and the applications of radiation from those sections Teacher Support The learning objectives in this section..."
+      ],
+      "duration": 4,
+      "level": "high_school",
+      "difficulty": 2,
+      "core_status": "elective",
+      "mcat_relevant": true,
+      "prerequisites": [
+        "Electricity"
+      ],
+      "assessment_methods": [
+        "Conceptual understanding",
+        "Application"
+      ],
+      "learning_objectives": [
+        "Understand wave properties and phenomena",
+        "Explain magnetic phenomena and electromagnetic induction"
+      ],
+      "source_id": "m54342",
+      "content_preview": "The Electromagnetic Spectrum m54342 The Electromagnetic Spectrum 7d996634-c209-41d3-a183-18f0081f9388 Section Learning Objectives By the end of this section, you will be able to do the following: Defi...",
+      "source_book": "Physics",
+      "domain": "physics",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 110
+    },
+    {
+      "name": "Stellar Physics",
+      "description": "The Universe of the Very Small m59760 The Universe of the Very Small 15fa90be-da2d-48d6-bae9-f3b84d1d3960 The foregoing discussion has likely impressed on you that the universe is extraordinarily larg",
+      "objectives": [
+        "Master core concepts",
+        "Apply knowledge effectively"
+      ],
+      "duration": 4,
+      "level": "undergraduate",
+      "difficulty": 3,
+      "core_status": "elective",
+      "mcat_relevant": false,
+      "prerequisites": [
+        "Gravity",
+        "Thermodynamics",
+        "Nuclear physics"
+      ],
+      "assessment_methods": [
+        "Problem solving",
+        "Conceptual understanding"
+      ],
+      "learning_objectives": [
+        "Understand key concepts",
+        "Apply problem-solving skills",
+        "Connect theory to applications"
+      ],
+      "source_id": "m59760",
+      "content_preview": "The Universe of the Very Small m59760 The Universe of the Very Small 15fa90be-da2d-48d6-bae9-f3b84d1d3960 The foregoing discussion has likely impressed on you that the universe is extraordinarily larg...",
+      "source_book": "Astronomy 2e",
+      "domain": "astronomy",
+      "extraction_strategy": "content_processing",
+      "pedagogical_order": 111
+    }
+  ],
+  "iteration": 1,
+  "parsing_stats": {
+    "successful": 7,
+    "failed": 0,
+    "strategies_used": {
+      "content_processing": 7
+    }
+  },
+  "total_subtopics": 111,
+  "adaptive_metadata": {
+    "iterations_run": 1,
+    "quality_history": [
+      0.9690567840567841
+    ],
+    "final_quality": 0.9690567840567841,
+    "target_achieved": true,
+    "parsing_success_rates": {
+      "direct_parse": 0.0,
+      "clean_markdown": 0.0,
+      "fix_unterminated_strings": 0.0,
+      "remove_trailing_commas": 0.0,
+      "extract_json_block": 0.0,
+      "repair_quotes": 0.0,
+      "truncate_and_close": 0.0,
+      "ast_literal_eval": 0.0,
+      "regex_extraction": 0.0,
+      "line_by_line_repair": 0.0,
+      "emergency_fallback": 0.0
+    },
+    "learning_log_size": 0
+  }
+}
